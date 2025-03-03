@@ -113,14 +113,13 @@ def extract_gsm_data(cleaned_structure):
     #     data['GPRS Indicator'] = gprs_matches.group(1)
 
     # True Or Fake BTS
+    data['Status'] = True
     security_header_type_patteren = r'Security header type:\s*(\w+)'
     security_header_type_matches = re.search(security_header_type_patteren, cleaned_structure)
     if security_header_type_matches:
         # print(security_header_type_matches[0])
         if security_header_type_matches  == 'Plain':
             data['Status'] = False
-        else:
-            data['Status'] = True
 
     return data
 
@@ -214,14 +213,14 @@ def extract_lte_data(cleaned_structure):
     #     data['si-WindowLength'] = si_window_length_matches[0]
 
     # True Or Fake BTS
+    data['Status'] = True
     security_header_type_patteren = r'Security header type:\s*(\w+)'
     security_header_type_matches = re.search(security_header_type_patteren, cleaned_structure)
     if security_header_type_matches:
         security_header_type = security_header_type_matches.group(1)
         if security_header_type == 'Plain':
             data['Status'] = False  
-        else:
-            data['Status'] = True 
+
     return data
 
 
@@ -286,7 +285,7 @@ def save_gsm_data_to_db(gsm_data, campaign_id):
                     data.get('Cell Identity'),
                     data.get('RxLev'),
                     data.get('Status'),
-                    campaign_id  # Sertakan ID campaign
+                    campaign_id 
                 )
                 cursor.execute(sql, values)
 
@@ -396,9 +395,10 @@ def start_live_capture(stop_event, campaign_id):
     
     existing_data_gsm = []
     existing_data_lte = []
+
+    packet_count = 0
+    start_time = time.time()
     
-    # campaign_id = create_campaign()
-    # print(f"Campaign ID yang baru dibuat: {campaign_id}")
     interface = 'lo'
     try:
         cap = pyshark.LiveCapture(interface=interface)

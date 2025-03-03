@@ -1,8 +1,4 @@
 pyshark
-mysql-connector-python
 fastapi
 uvicorn
 psutil
-passlib[bcrypt] 
-PyJWT
-python-multipart

@@ -1,4 +1,4 @@
-#!/home/me/app/icc/device_local/icc-service/myenv/bin/python3.11
+#!/home/me/app/icc-service-devices/myenv/bin/python3.11
 # -*- coding: utf-8 -*-
 import re
 import sys
