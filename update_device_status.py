@@ -14,7 +14,7 @@ def update_device_status():
             return
 
         cursor = connection.cursor()
-        update_query = "UPDATE device SET is_active = ?"
+        update_query = "UPDATE device SET is_connected = ?"
         cursor.execute(update_query, (status_value,))
         connection.commit()
 

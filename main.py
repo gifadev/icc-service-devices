@@ -1,9 +1,12 @@
-from fastapi import FastAPI, HTTPException, Form
+from fastapi import FastAPI, HTTPException, Form, WebSocket, WebSocketDisconnect
 import threading
 import uvicorn
 from fastapi.middleware.cors import CORSMiddleware
 from livecapture import start_live_capture
 from database_config import connect_to_database
+import asyncio
+
+from broadcaster import manager, set_loop
 
 app = FastAPI()
 
@@ -85,6 +88,20 @@ async def stop_capture(campaign_id: int):
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error stopping capture: {str(e)}")
 
+
+@app.websocket("/ws")
+async def websocket_endpoint(websocket: WebSocket):
+    await manager.connect(websocket)
+    try:
+        while True:
+            data = await websocket.receive_text()
+            await websocket.send_text(f"Anda mengirim: {data}")
+    except WebSocketDisconnect:
+        manager.disconnect(websocket)
+
+@app.on_event("startup")
+async def startup_event():
+    set_loop(asyncio.get_running_loop())
 
 
 if __name__ == "__main__":

@@ -1,1 +1,22 @@
-[]
+[
+    {
+        "ARFCN": 80,
+        "RxLev": 0,
+        "Status": true
+    },
+    {
+        "ARFCN": 80,
+        "RxLev": 0,
+        "Status": true
+    },
+    {
+        "ARFCN": 80,
+        "RxLev": 0,
+        "Status": true
+    },
+    {
+        "ARFCN": 80,
+        "RxLev": 0,
+        "Status": true
+    }
+]

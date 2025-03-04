@@ -4,6 +4,7 @@ import json
 import time
 from database_config import connect_to_database
 import pyshark.tshark.tshark
+from broadcaster import schedule_update_broadcast 
 
 
 def remove_ansi_escape_codes(text):
@@ -288,6 +289,8 @@ def save_gsm_data_to_db(gsm_data, campaign_id):
                     campaign_id 
                 )
                 cursor.execute(sql, values)
+                print("Pesan broadcast GSM Kondisi 1")
+                schedule_update_broadcast(campaign_id)
 
         # Kasus 3: MCC dan MNC kosong, tetapi Status memiliki nilai
         elif (mcc is None or mcc == '') and (mnc is None or mnc == '') and data.get('Status') is not None:
@@ -304,6 +307,8 @@ def save_gsm_data_to_db(gsm_data, campaign_id):
                 UPDATE gsm SET status = ? WHERE arfcn = ? AND id_campaign = ?
                 """
                 cursor.execute(update_sql, (data.get('Status'), data.get('ARFCN'), campaign_id))
+                print("Pesan broadcast GSM Kondisi 2")
+                schedule_update_broadcast(campaign_id)
     
     # Commit perubahan ke database
     connection.commit()
@@ -365,6 +370,8 @@ def save_lte_data_to_db(lte_data, campaign_id):
                     campaign_id  # Sertakan ID campaign
                 )
                 cursor.execute(sql, values)
+                print("Pesan broadcast LTE Kondisi 1")
+                schedule_update_broadcast(campaign_id)
         
         # Kasus 2: MCC dan MNC kosong, tetapi Status memiliki nilai
         elif (mcc is None or mcc == '') and (mnc is None or mnc == '') and status is not None:
@@ -381,6 +388,8 @@ def save_lte_data_to_db(lte_data, campaign_id):
                 UPDATE lte SET status = ? WHERE arfcn = ? AND id_campaign = ?
                 """
                 cursor.execute(update_sql, (status, arfcn, campaign_id))
+                print("Pesan broadcast LTE Kondisi 2")
+                schedule_update_broadcast(campaign_id)
     
     # Commit perubahan ke database
     connection.commit()
