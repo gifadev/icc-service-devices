@@ -82,6 +82,7 @@ def extract_gsm_data(cleaned_structure):
     # RXLEV-ACCESS-MIN
     rxlev_access_min_pattern = r'RXLEV-ACCESS-MIN:\s*(-?\d+\s*<=\s*x\s*<\s*-?\d+)\s*dBm'
     rxlev_access_min_matches = re.search(rxlev_access_min_pattern, cleaned_structure)
+    print("ini rxlev_access_min_matches",rxlev_access_min_matches)
     if rxlev_access_min_matches:
         range_str = rxlev_access_min_matches.group(1)
         # Ekstrak kedua angka dari string
@@ -89,8 +90,8 @@ def extract_gsm_data(cleaned_structure):
         if len(bounds) == 2:
             lower = int(bounds[0])
             upper = int(bounds[1])
-            print(lower)
-            print(upper)
+            print("ini lower",lower)
+            print("ini upper", upper)
             mid_value = (lower + upper) / 2
             data['RXLEV-ACCESS-MIN'] = mid_value
             
@@ -274,8 +275,8 @@ def save_gsm_data_to_db(gsm_data, campaign_id):
             # Jika data belum ada, lakukan INSERT
             if not results:
                 sql = """
-                INSERT INTO gsm (mcc, mnc, operator, local_area_code, arfcn, cell_identity, rxlev, status, id_campaign)
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+                INSERT INTO gsm (mcc, mnc, operator, local_area_code, arfcn, cell_identity, rxlev, rxlev_access_min, status, id_campaign)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 """
                 values = (
                     data.get('MCC'),
@@ -285,6 +286,7 @@ def save_gsm_data_to_db(gsm_data, campaign_id):
                     data.get('ARFCN'),
                     data.get('Cell Identity'),
                     data.get('RxLev'),
+                    data.get('RXLEV-ACCESS-MIN'),
                     data.get('Status'),
                     campaign_id 
                 )
@@ -334,6 +336,7 @@ def save_lte_data_to_db(lte_data, campaign_id):
         tracking_area_code = data.get('Tracking Area Code')  # Kode area pelacakan
         frequency_band_indicator = data.get('Frequency Band Indicator')  # Indikator band frekuensi
         signal_level = data.get('signal_level')  # Tingkat sinyal
+        rx_lev_min = data.get('Rx Level Min')
         snr = data.get('snr')  # Signal-to-Noise Ratio
         
         # Kasus 1: Data memiliki MCC, MNC, TAC, dan Cell Identity
@@ -353,8 +356,8 @@ def save_lte_data_to_db(lte_data, campaign_id):
             if not results:
                 sql = """
                 INSERT INTO lte (mcc, mnc, operator, arfcn, cell_identity, tracking_area_code, frequency_band_indicator, 
-                                 signal_level, snr, status, id_campaign)
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                                 signal_level, snr, rx_lev_min, status, id_campaign)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 """
                 values = (
                     mcc,
@@ -366,6 +369,7 @@ def save_lte_data_to_db(lte_data, campaign_id):
                     frequency_band_indicator,
                     signal_level,
                     snr,
+                    rx_lev_min,
                     status,
                     campaign_id  # Sertakan ID campaign
                 )
