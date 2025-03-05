@@ -1,1 +1,5 @@
-myvenv/
+myenv/
+pancashiki.log
+pancashiki.json
+gsm_data.json
+lte_data.json
