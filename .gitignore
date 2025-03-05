@@ -4,3 +4,4 @@ pancashiki.json
 gsm_data.json
 lte_data.json
 __pycache__/
+icc.db
