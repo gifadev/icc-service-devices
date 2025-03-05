@@ -2,3 +2,4 @@ pyshark
 fastapi
 uvicorn
 psutil
+python-multipart
