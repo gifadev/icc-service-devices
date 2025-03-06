@@ -1,5 +1,6 @@
 pyshark
 fastapi
-uvicorn
+uvicorn[standard]
 psutil
 python-multipart
+websockets

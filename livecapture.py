@@ -5,6 +5,18 @@ import time
 from database_config import connect_to_database
 import pyshark.tshark.tshark
 from broadcaster import schedule_update_broadcast 
+import logging
+
+logging.basicConfig(
+    level=logging.INFO,  
+    format="%(asctime)s - %(levelname)s - %(message)s",
+    handlers=[
+        logging.FileHandler("icc.log"), 
+        logging.StreamHandler() 
+    ]
+)
+
+logger = logging.getLogger(__name__) 
 
 
 def remove_ansi_escape_codes(text):
@@ -225,182 +237,193 @@ def extract_lte_data(cleaned_structure):
 
     return data
 
-
 def create_campaign():
-    connection = connect_to_database()
-    if connection is None:
-        return None
-    
-    cursor = connection.cursor()
-    
-    sql = "INSERT INTO campaign (timestamp) VALUES (DATETIME('now'))"
-    cursor.execute(sql)
-    
-    campaign_id = cursor.lastrowid 
-    
-    connection.commit()
-    cursor.close()
-    connection.close()
-    
-    return campaign_id
+    """
+    Membuat campaign baru dalam database dan mengembalikan ID campaign yang dibuat.
+    """
+    try:
+        connection = connect_to_database()
+        if connection is None:
+            logger.error("Gagal menghubungkan ke database saat membuat campaign.")
+            return None
 
+        cursor = connection.cursor()
+        
+        sql = "INSERT INTO campaign (timestamp) VALUES (DATETIME('now'))"
+        cursor.execute(sql)
+        campaign_id = cursor.lastrowid
+
+        connection.commit()
+        logger.info(f"Campaign baru dibuat dengan ID={campaign_id}")
+
+        return campaign_id
+    except Exception as e:
+        logger.exception(f"Error saat membuat campaign: {e}")
+        return None
+    finally:
+        if connection:
+            cursor.close()
+            connection.close()
+            logger.debug("Koneksi database ditutup setelah pembuatan campaign.")
 
 def save_gsm_data_to_db(gsm_data, campaign_id):
-    # Hubungkan ke database
-    connection = connect_to_database()
-    cursor = connection.cursor()
-    
-    # Loop melalui setiap data GSM
-    for data in gsm_data:
-        # Ambil nilai-nilai penting dari data GSM
-        mcc = data.get('MCC')  
-        mnc = data.get('MNC')  
-        local_area_code = data.get('Local Area Code')  
-        cell_identity = data.get('Cell Identity')  
-        arfcn = data.get('ARFCN')  
+    try:
+        connection = connect_to_database()
+        if connection is None:
+            logger.error(f"Gagal menghubungkan ke database saat menyimpan data GSM untuk Campaign ID={campaign_id}")
+            return
 
-        # Kasus 2: Data memiliki MCC, MNC, Local Area Code, dan Cell Identity
-        if (mcc is not None and mcc != '') and (mnc is not None and mnc != '') and \
-           (local_area_code is not None and local_area_code != '') and \
-           (cell_identity is not None and cell_identity != ''):
+        cursor = connection.cursor()
+        logger.info(f"Mulai menyimpan data GSM untuk Campaign ID={campaign_id}, total data: {len(gsm_data)}")
 
-            # Cek apakah data dengan kombinasi MCC, MNC, Local Area Code, dan Cell Identity sudah ada
-            check_sql = """
-            SELECT id FROM gsm 
-            WHERE mcc = ? AND mnc = ? AND local_area_code = ? AND cell_identity = ? AND id_campaign = ?
-            """
-            cursor.execute(check_sql, (mcc, mnc, local_area_code, cell_identity, campaign_id))
-            results = cursor.fetchall()
-            
-            # Jika data belum ada, lakukan INSERT
-            if not results:
-                sql = """
-                INSERT INTO gsm (mcc, mnc, operator, local_area_code, arfcn, cell_identity, rxlev, rxlev_access_min, status, id_campaign)
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        for data in gsm_data:
+            mcc, mnc, local_area_code, cell_identity, arfcn = (
+                data.get('MCC'),
+                data.get('MNC'),
+                data.get('Local Area Code'),
+                data.get('Cell Identity'),
+                data.get('ARFCN'),
+            )
+
+            # 🔹 Kasus 1: Data memiliki MCC, MNC, Local Area Code, dan Cell Identity
+            if all([mcc, mnc, local_area_code, cell_identity]):
+                check_sql = """
+                SELECT id FROM gsm 
+                WHERE mcc = ? AND mnc = ? AND local_area_code = ? AND cell_identity = ? AND id_campaign = ?
                 """
-                values = (
-                    data.get('MCC'),
-                    data.get('MNC'),
-                    data.get('operator'),
-                    data.get('Local Area Code'),
-                    data.get('ARFCN'),
-                    data.get('Cell Identity'),
-                    data.get('RxLev'),
-                    data.get('RXLEV-ACCESS-MIN'),
-                    data.get('Status'),
-                    campaign_id 
-                )
-                cursor.execute(sql, values)
-                print("Pesan broadcast GSM Kondisi 1")
-                schedule_update_broadcast(campaign_id)
+                cursor.execute(check_sql, (mcc, mnc, local_area_code, cell_identity, campaign_id))
+                results = cursor.fetchall()
 
-        # Kasus 3: MCC dan MNC kosong, tetapi Status memiliki nilai
-        elif (mcc is None or mcc == '') and (mnc is None or mnc == '') and data.get('Status') is not None:
-            # Cari data di database yang memiliki ARFCN yang sama untuk campaign ini
-            select_sql = """
-            SELECT id FROM gsm WHERE arfcn = ? AND id_campaign = ?
-            """
-            cursor.execute(select_sql, (data.get('ARFCN'), campaign_id))
-            results = cursor.fetchall()
-            
-            # Jika ditemukan data dengan ARFCN yang sama, update status
-            if results:
-                update_sql = """
-                UPDATE gsm SET status = ? WHERE arfcn = ? AND id_campaign = ?
+                if not results:
+                    sql = """
+                    INSERT INTO gsm (mcc, mnc, operator, local_area_code, arfcn, cell_identity, rxlev, rxlev_access_min, status, id_campaign)
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                    """
+                    values = (
+                        data.get('MCC'),
+                        data.get('MNC'),
+                        data.get('operator'),
+                        data.get('Local Area Code'),
+                        data.get('ARFCN'),
+                        data.get('Cell Identity'),
+                        data.get('RxLev'),
+                        data.get('RXLEV-ACCESS-MIN'),
+                        data.get('Status'),
+                        campaign_id
+                    )
+                    cursor.execute(sql, values)
+                    schedule_update_broadcast(campaign_id)
+
+            # 🔹 Kasus 2: MCC dan MNC kosong, tetapi Status memiliki nilai
+            elif (not mcc or not mnc) and data.get('Status') is not None:
+                select_sql = """
+                SELECT id FROM gsm WHERE arfcn = ? AND id_campaign = ?
                 """
-                cursor.execute(update_sql, (data.get('Status'), data.get('ARFCN'), campaign_id))
-                print("Pesan broadcast GSM Kondisi 2")
-                schedule_update_broadcast(campaign_id)
-    
-    # Commit perubahan ke database
-    connection.commit()
-    # Tutup kursor dan koneksi
-    cursor.close()
-    connection.close()
+                cursor.execute(select_sql, (data.get('ARFCN'), campaign_id))
+                results = cursor.fetchall()
 
+                if results:
+                    update_sql = """
+                    UPDATE gsm SET status = ? WHERE arfcn = ? AND id_campaign = ?
+                    """
+                    cursor.execute(update_sql, (data.get('Status'), data.get('ARFCN'), campaign_id))
+                    logger.info(f"Status GSM diperbarui untuk Campaign ID={campaign_id}, ARFCN={data.get('ARFCN')}")
+
+                    schedule_update_broadcast(campaign_id)
+
+        connection.commit()
+        logger.info(f"Data GSM berhasil disimpan untuk Campaign ID={campaign_id}")
+
+    except Exception as e:
+        logger.exception(f"Error saat menyimpan data GSM ke database untuk Campaign ID={campaign_id}: {e}")
+    finally:
+        if connection:
+            cursor.close()
+            connection.close()
+            logger.debug(f"Koneksi database ditutup setelah menyimpan data GSM untuk Campaign ID={campaign_id}")
 
 # Fungsi untuk menyimpan data LTE ke database
 def save_lte_data_to_db(lte_data, campaign_id):
-    # Hubungkan ke database
-    connection = connect_to_database()
-    cursor = connection.cursor()
-    
-    # Loop melalui setiap data LTE
-    for data in lte_data:
-        # Ambil nilai-nilai penting dari data LTE
-        mcc = data.get('MCC')  # Mobile Country Code
-        mnc = data.get('MNC')  # Mobile Network Code
-        status = data.get('Status')  # Status sel
-        arfcn = data.get('ARFCN')  # Absolute Radio Frequency Channel Number
-        cell_identity = data.get('Cell Identity')  # Identitas sel
-        tracking_area_code = data.get('Tracking Area Code')  # Kode area pelacakan
-        frequency_band_indicator = data.get('Frequency Band Indicator')  # Indikator band frekuensi
-        signal_level = data.get('signal_level')  # Tingkat sinyal
-        rx_lev_min = data.get('Rx Level Min')
-        snr = data.get('snr')  # Signal-to-Noise Ratio
-        
-        # Kasus 1: Data memiliki MCC, MNC, TAC, dan Cell Identity
-        if (mcc is not None and mcc != '') and (mnc is not None and mnc != '') and \
-           (tracking_area_code is not None and tracking_area_code != '') and \
-           (cell_identity is not None and cell_identity != ''):
-            
-            # Cek apakah data dengan kombinasi MCC, MNC, TAC, dan Cell Identity sudah ada di database untuk campaign ini
-            check_sql = """
-            SELECT id FROM lte 
-            WHERE mcc = ? AND mnc = ? AND tracking_area_code = ? AND cell_identity = ? AND id_campaign = ?
-            """
-            cursor.execute(check_sql, (mcc, mnc, tracking_area_code, cell_identity, campaign_id))
-            results = cursor.fetchall()
-            
-            # Jika data belum ada, lakukan INSERT
-            if not results:
-                sql = """
-                INSERT INTO lte (mcc, mnc, operator, arfcn, cell_identity, tracking_area_code, frequency_band_indicator, 
-                                 signal_level, snr, rx_lev_min, status, id_campaign)
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-                """
-                values = (
-                    mcc,
-                    mnc,
-                    data.get('operator'),
-                    arfcn,
-                    cell_identity,
-                    tracking_area_code,
-                    frequency_band_indicator,
-                    signal_level,
-                    snr,
-                    rx_lev_min,
-                    status,
-                    campaign_id  # Sertakan ID campaign
-                )
-                cursor.execute(sql, values)
-                print("Pesan broadcast LTE Kondisi 1")
-                schedule_update_broadcast(campaign_id)
-        
-        # Kasus 2: MCC dan MNC kosong, tetapi Status memiliki nilai
-        elif (mcc is None or mcc == '') and (mnc is None or mnc == '') and status is not None:
-            # Cari data di database yang memiliki ARFCN yang sama untuk campaign ini
-            select_sql = """
-            SELECT id FROM lte WHERE arfcn = ? AND id_campaign = ?
-            """
-            cursor.execute(select_sql, (arfcn, campaign_id))
-            results = cursor.fetchall()
-            
-            # Jika ditemukan data dengan ARFCN yang sama, update status
-            if results:
-                update_sql = """
-                UPDATE lte SET status = ? WHERE arfcn = ? AND id_campaign = ?
-                """
-                cursor.execute(update_sql, (status, arfcn, campaign_id))
-                print("Pesan broadcast LTE Kondisi 2")
-                schedule_update_broadcast(campaign_id)
-    
-    # Commit perubahan ke database
-    connection.commit()
-    # Tutup kursor dan koneksi
-    cursor.close()
-    connection.close()
+    """
+    Menyimpan data LTE yang telah diparsing ke dalam database.
+    """
+    try:
+        connection = connect_to_database()
+        if connection is None:
+            logger.error(f"Gagal menghubungkan ke database saat menyimpan data LTE untuk Campaign ID={campaign_id}")
+            return
 
+        cursor = connection.cursor()
+        logger.info(f"Mulai menyimpan data LTE untuk Campaign ID={campaign_id}, total data: {len(lte_data)}")
+
+        for data in lte_data:
+            mcc, mnc, tracking_area_code, cell_identity, arfcn = (
+                data.get('MCC'),
+                data.get('MNC'),
+                data.get('Tracking Area Code'),
+                data.get('Cell Identity'),
+                data.get('ARFCN'),
+            )
+
+            # 🔹 Kasus 1: Data memiliki MCC, MNC, TAC, dan Cell Identity
+            if all([mcc, mnc, tracking_area_code, cell_identity]):
+                check_sql = """
+                SELECT id FROM lte 
+                WHERE mcc = ? AND mnc = ? AND tracking_area_code = ? AND cell_identity = ? AND id_campaign = ?
+                """
+                cursor.execute(check_sql, (mcc, mnc, tracking_area_code, cell_identity, campaign_id))
+                results = cursor.fetchall()
+
+                if not results:
+                    sql = """
+                    INSERT INTO lte (mcc, mnc, operator, arfcn, cell_identity, tracking_area_code, frequency_band_indicator, 
+                                     signal_level, snr, rx_lev_min, status, id_campaign)
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                    """
+                    values = (
+                        mcc,
+                        mnc,
+                        data.get('operator'),
+                        arfcn,
+                        cell_identity,
+                        tracking_area_code,
+                        data.get('Frequency Band Indicator'),
+                        data.get('signal_level'),
+                        data.get('snr'),
+                        data.get('Rx Level Min'),
+                        data.get('Status'),
+                        campaign_id
+                    )
+                    cursor.execute(sql, values)
+                    schedule_update_broadcast(campaign_id)
+
+            # 🔹 Kasus 2: MCC dan MNC kosong, tetapi Status memiliki nilai
+            elif (not mcc or not mnc) and data.get('Status') is not None:
+                select_sql = """
+                SELECT id FROM lte WHERE arfcn = ? AND id_campaign = ?
+                """
+                cursor.execute(select_sql, (arfcn, campaign_id))
+                results = cursor.fetchall()
+
+                if results:
+                    update_sql = """
+                    UPDATE lte SET status = ? WHERE arfcn = ? AND id_campaign = ?
+                    """
+                    cursor.execute(update_sql, (data.get('Status'), arfcn, campaign_id))
+                    logger.info(f"Status LTE diperbarui untuk Campaign ID={campaign_id}, ARFCN={arfcn}")
+
+                    schedule_update_broadcast(campaign_id)
+
+        connection.commit()
+        logger.info(f"Data LTE berhasil disimpan untuk Campaign ID={campaign_id}")
+
+    except Exception as e:
+        logger.exception(f"Error saat menyimpan data LTE ke database untuk Campaign ID={campaign_id}: {e}")
+    finally:
+        if connection:
+            cursor.close()
+            connection.close()
+            logger.debug(f"Koneksi database ditutup setelah menyimpan data LTE untuk Campaign ID={campaign_id}")
 
 def start_live_capture(stop_event, campaign_id):
     output_file_gsm = 'gsm_data.json'
@@ -412,50 +435,55 @@ def start_live_capture(stop_event, campaign_id):
     packet_count = 0
     start_time = time.time()
     
-    interface = 'lo'
+    interface = 'lo'  # Sesuaikan dengan antarmuka jaringan yang digunakan
+
     try:
         cap = pyshark.LiveCapture(interface=interface)
+        logger.info(f"Memulai live capture di interface '{interface}' untuk Campaign ID={campaign_id}")
     except (pyshark.capture.capture.TSharkNotFoundError, OSError) as e:
-        print(f"Error: Interface '{interface}' tidak ditemukan atau TShark tidak terinstal.")
+        logger.error(f"Error: Interface '{interface}' tidak ditemukan atau TShark tidak terinstal. {e}")
         return
     
     try:
-        # Set timeout pada capture untuk check stop_event lebih sering
         cap.set_debug()
         for packet in cap.sniff_continuously(packet_count=0):
             if stop_event.is_set():
-                print("Stop signal received in capture thread, shutting down...")
+                logger.info("Stop signal diterima, menghentikan live capture...")
                 break
                 
             full_packet_structure = str(packet)
             cleaned_structure = remove_ansi_escape_codes(full_packet_structure)
             cleaned_structure = clean_packet_structure(cleaned_structure)
 
+            # 🔹 Parsing tipe paket
             payload_type_pattern = r'Payload Type:\s*(\w+)'
-            payload_type_matches = re.findall(payload_type_pattern, cleaned_structure)
             protocol_type_pattern = r'Protocol:\s*(\w+)'
-            protocol_type_matches = re.findall(protocol_type_pattern, cleaned_structure)
             arfcn_type_pattern = r'ARFCN:\s*(\d+)'
+
+            payload_type_matches = re.findall(payload_type_pattern, cleaned_structure)
+            protocol_type_matches = re.findall(protocol_type_pattern, cleaned_structure)
             arfcn_type_matches = re.findall(arfcn_type_pattern, cleaned_structure)
-            
+
             if payload_type_matches:
-                payload_type = payload_type_matches[0] 
+                payload_type = payload_type_matches[0]
                 protocol_type = protocol_type_matches[0]
-                arfcn_type = arfcn_type_matches[0]
-                
+                arfcn_type = arfcn_type_matches[0] if arfcn_type_matches else None
+
                 if protocol_type == 'UDP':
                     if payload_type == 'GSM':
                         gsm_data = extract_gsm_data(cleaned_structure)
                         if gsm_data:
-                            print(gsm_data)
+                            logger.debug(f"Data GSM ditemukan: {gsm_data}")
                             existing_data_gsm.append(gsm_data)
                     elif payload_type == 'LTE' and arfcn_type != '0':
                         lte_data = extract_lte_data(cleaned_structure)
                         if lte_data:
-                            print(lte_data)
+                            logger.debug(f"Data LTE ditemukan: {lte_data}")
                             existing_data_lte.append(lte_data)
-            
+
             packet_count += 1
+
+            # 🔹 Simpan setiap 10 paket atau setiap 60 detik
             if packet_count % 10 == 0 or (time.time() - start_time) >= 60:
                 with open(output_file_gsm, 'w') as f:
                     json.dump(existing_data_gsm, f, indent=4)
@@ -465,17 +493,17 @@ def start_live_capture(stop_event, campaign_id):
                 save_gsm_data_to_db(existing_data_gsm, campaign_id)
                 save_lte_data_to_db(existing_data_lte, campaign_id)
                 
-                print(f"Data saved at packet {packet_count}")
+                logger.info(f"Data GSM dan LTE disimpan ke database setelah {packet_count} paket.")
                 start_time = time.time()
                 existing_data_gsm = []
                 existing_data_lte = []
 
     except Exception as e:
-        print(f"Error in capture: {e}")
+        logger.exception(f"Error saat menangkap paket: {e}")
     finally:
         try:
-            print("Cleaning up capture resources...")
+            logger.info("Menutup live capture...")
             cap.close()
-            print("Capture cleaned up successfully")
+            logger.info("Live capture dihentikan dengan sukses.")
         except Exception as e:
-            print(f"Error during cleanup: {e}")
+            logger.error(f"Error saat menutup live capture: {e}")

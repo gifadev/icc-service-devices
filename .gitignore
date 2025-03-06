@@ -6,3 +6,4 @@ lte_data.json
 __pycache__/
 icc.db
 pancashiki.pid
+icc.log
