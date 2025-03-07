@@ -74,31 +74,31 @@ capture_thread_lock = threading.Lock()
 
 @app.post("/start-capture")
 async def start_capture(
-    id_campaign: int = Form(),
+    campaign_id: int = Form(),
     campaign_name: str = Form()
 ):
     """Memulai live capture dengan campaign tertentu."""
     global capture_thread
     with capture_thread_lock: 
         if capture_thread and capture_thread.is_alive():
-            logger.warning(f"Percobaan memulai capture saat sudah berjalan. Campaign ID: {id_campaign}")
+            logger.warning(f"Percobaan memulai capture saat sudah berjalan. Campaign ID: {campaign_id}")
             raise HTTPException(status_code=400, detail="Live capture is already running")
 
         stop_event.clear()
-        create_campaign(id_campaign, campaign_name)
+        create_campaign(campaign_id, campaign_name)
 
         capture_thread = threading.Thread(
             target=start_live_capture,
-            args=(stop_event, id_campaign)
+            args=(stop_event, campaign_id)
         )
         capture_thread.daemon = True
         capture_thread.start()
 
-        logger.info(f"Live capture dimulai: Campaign ID={id_campaign}, Name={campaign_name}")
+        logger.info(f"Live capture dimulai: Campaign ID={campaign_id}, Name={campaign_name}")
 
     return {
         "message": "Live capture started successfully",
-        "campaign_id": id_campaign,
+        "campaign_id": campaign_id,
         "campaign_name": campaign_name
     }
 
