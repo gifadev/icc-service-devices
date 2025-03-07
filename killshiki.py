@@ -7,7 +7,7 @@ import signal
 def is_samsung_connected():
     try:
         result = os.popen("lsusb").read()
-        return any("Samsung" in line for line in result.split('\n'))
+        return any("Qualcomm" in line for line in result.split('\n'))
     except Exception as e:
         print(f"Error checking USB connection: {e}")
         return False

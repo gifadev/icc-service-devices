@@ -28,7 +28,7 @@ def get_campaign_data_by_id(id_campaign):
         logger.info(f"Mengambil data untuk Campaign ID={id_campaign}")
 
         # 🔹 Ambil informasi campaign
-        cursor.execute("SELECT id, timestamp FROM campaign WHERE id = ?", (id_campaign,))
+        cursor.execute("SELECT id, name, status, timestamp FROM campaign WHERE id = ?", (id_campaign,))
         campaign = cursor.fetchone()
 
         if not campaign:

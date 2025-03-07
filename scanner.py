@@ -15,7 +15,7 @@ allowed_devices = [
     {
         "hostname": "me",
         "username": ["me", "root"],
-        "serial_number": "RRCT4045FNP"
+        "serial_number": "RR8R303RHMW"
     },
 ]
 
@@ -65,7 +65,7 @@ def get_adb_device_serial():
 def get_qualcomm_device_serial():
     try:
         result = subprocess.check_output(['lsusb']).decode('utf-8')
-        qualcomm_devices = [line for line in result.splitlines() if "Samsung" in line]
+        qualcomm_devices = [line for line in result.splitlines() if "Qualcomm" in line]
         if qualcomm_devices:
             parts = qualcomm_devices[0].split()
             usb_serial = parts[1] + ":" + parts[3].strip(':')
