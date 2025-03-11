@@ -429,13 +429,16 @@ def save_lte_data_to_db(lte_data, campaign_id):
             connection.close()
             logger.debug(f"Koneksi database ditutup setelah menyimpan data LTE untuk Campaign ID={campaign_id}")
 
+global_cap = None
+
 def start_live_capture(stop_event, campaign_id):
+    global global_cap
+
     output_file_gsm = 'gsm_data.json'
     output_file_lte = 'lte_data.json'
     
     existing_data_gsm = []
     existing_data_lte = []
-
     packet_count = 0
     start_time = time.time()
     
@@ -443,34 +446,32 @@ def start_live_capture(stop_event, campaign_id):
 
     try:
         cap = pyshark.LiveCapture(interface=interface)
+        global_cap = cap  # simpan secara global agar bisa diakses dari endpoint stop
         logger.info(f"Memulai live capture di interface '{interface}' untuk Campaign ID={campaign_id}")
-    except (pyshark.capture.capture.TSharkNotFoundError, OSError) as e:
-        logger.error(f"Error: Interface '{interface}' tidak ditemukan atau TShark tidak terinstal. {e}")
+    except Exception as e:
+        logger.error(f"Error initializing live capture on interface '{interface}': {e}")
         return
     
     try:
         cap.set_debug()
-        for packet in cap.sniff_continuously(packet_count=0):
+        for packet in cap.sniff_continuously():
+            # Jika stop_event sudah diset, langsung keluar dari loop
             if stop_event.is_set():
                 logger.info("Stop signal diterima, menghentikan live capture...")
                 break
-                
+
             full_packet_structure = str(packet)
             cleaned_structure = remove_ansi_escape_codes(full_packet_structure)
             cleaned_structure = clean_packet_structure(cleaned_structure)
 
-            # 🔹 Parsing tipe paket
-            payload_type_pattern = r'Payload Type:\s*(\w+)'
-            protocol_type_pattern = r'Protocol:\s*(\w+)'
-            arfcn_type_pattern = r'ARFCN:\s*(\d+)'
-
-            payload_type_matches = re.findall(payload_type_pattern, cleaned_structure)
-            protocol_type_matches = re.findall(protocol_type_pattern, cleaned_structure)
-            arfcn_type_matches = re.findall(arfcn_type_pattern, cleaned_structure)
+            # Parsing tipe paket
+            payload_type_matches = re.findall(r'Payload Type:\s*(\w+)', cleaned_structure)
+            protocol_type_matches = re.findall(r'Protocol:\s*(\w+)', cleaned_structure)
+            arfcn_type_matches = re.findall(r'ARFCN:\s*(\d+)', cleaned_structure)
 
             if payload_type_matches:
                 payload_type = payload_type_matches[0]
-                protocol_type = protocol_type_matches[0]
+                protocol_type = protocol_type_matches[0] if protocol_type_matches else None
                 arfcn_type = arfcn_type_matches[0] if arfcn_type_matches else None
 
                 if protocol_type == 'UDP':
@@ -484,10 +485,9 @@ def start_live_capture(stop_event, campaign_id):
                         if lte_data:
                             logger.debug(f"Data LTE ditemukan: {lte_data}")
                             existing_data_lte.append(lte_data)
-
             packet_count += 1
 
-            # 🔹 Simpan setiap 10 paket atau setiap 60 detik
+            # Simpan data setiap 10 paket atau setiap 60 detik
             if packet_count % 10 == 0 or (time.time() - start_time) >= 60:
                 with open(output_file_gsm, 'w') as f:
                     json.dump(existing_data_gsm, f, indent=4)
@@ -511,3 +511,4 @@ def start_live_capture(stop_event, campaign_id):
             logger.info("Live capture dihentikan dengan sukses.")
         except Exception as e:
             logger.error(f"Error saat menutup live capture: {e}")
+        global_cap = None

@@ -4,6 +4,7 @@ import threading
 import uvicorn
 from fastapi.middleware.cors import CORSMiddleware
 from livecapture import start_live_capture
+from livecapture import global_cap
 from database_config import connect_to_database
 import asyncio
 from broadcaster import manager, set_loop
@@ -104,28 +105,27 @@ async def start_capture(
 
 @app.get("/stop-capture/{campaign_id}")
 async def stop_capture(campaign_id: int):
-    """Menghentikan live capture berdasarkan campaign_id."""
-    global capture_thread, stop_event
+    global capture_thread, stop_event, global_cap
     update_campaign_status(campaign_id, 0)
     
-    # Cek apakah thread aktif
     if capture_thread is None or not capture_thread.is_alive():
         logger.warning(f"Percobaan menghentikan capture yang tidak berjalan. Campaign ID: {campaign_id}")
         raise HTTPException(status_code=400, detail="Live capture is not running")
 
     try:
-        # Set stop_event agar thread tahu harus berhenti
+        # Set stop_event untuk memberi sinyal ke thread
         stop_event.set()
-
-        # Coba join dengan timeout. Jika perlu, perpanjang waktu tunggu.
+        
+        # Jika global_cap masih ada, panggil close() untuk memaksa keluar dari blocking read
+        if global_cap is not None:
+            global_cap.close()
+        
         capture_thread.join(timeout=2)
         
-        # Jika thread masih hidup, artinya belum berhenti dengan baik
         if capture_thread.is_alive():
             logger.error(f"Capture thread tidak berhasil dihentikan dengan benar. Campaign ID: {campaign_id}")
             raise HTTPException(status_code=500, detail="Live capture thread did not terminate properly.")
         
-        # Reset variabel dan stop_event (jika akan digunakan kembali)
         capture_thread = None
         stop_event.clear()
 
