@@ -127,12 +127,14 @@ def extract_gsm_data(cleaned_structure):
     #     data['GPRS Indicator'] = gprs_matches.group(1)
 
     # True Or Fake BTS
-    data['Status'] = True
+    # data['Status'] = True
     security_header_type_patteren = r'Security header type:\s*(\w+)'
     security_header_type_matches = re.search(security_header_type_patteren, cleaned_structure)
+    print("#############in security_header_type_matches type#############", security_header_type_matches)
     if security_header_type_matches:
         # print(security_header_type_matches[0])
         if security_header_type_matches  == 'Plain':
+            print("***********in security_header_type_matches type***********", security_header_type_matches)
             data['Status'] = False
 
     return data
@@ -227,14 +229,16 @@ def extract_lte_data(cleaned_structure):
     #     data['si-WindowLength'] = si_window_length_matches[0]
 
     # True Or Fake BTS
-    data['Status'] = True
+    # data['Status'] = True
     security_header_type_patteren = r'Security header type:\s*(\w+)'
     security_header_type_matches = re.search(security_header_type_patteren, cleaned_structure)
+    print("#############in security_header_type_matches type#############", security_header_type_matches)
     if security_header_type_matches:
         security_header_type = security_header_type_matches.group(1)
         if security_header_type == 'Plain':
+            print("***********in security_header_type_matches type***********", security_header_type_matches)
             data['Status'] = False  
-
+            
     return data
 
 def create_campaign():

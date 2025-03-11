@@ -105,28 +105,37 @@ async def start_capture(
 @app.get("/stop-capture/{campaign_id}")
 async def stop_capture(campaign_id: int):
     """Menghentikan live capture berdasarkan campaign_id."""
-    global capture_thread
+    global capture_thread, stop_event
     update_campaign_status(campaign_id, 0)
     
-    if not capture_thread or not capture_thread.is_alive():
+    # Cek apakah thread aktif
+    if capture_thread is None or not capture_thread.is_alive():
         logger.warning(f"Percobaan menghentikan capture yang tidak berjalan. Campaign ID: {campaign_id}")
         raise HTTPException(status_code=400, detail="Live capture is not running")
 
     try:
+        # Set stop_event agar thread tahu harus berhenti
         stop_event.set()
+
+        # Coba join dengan timeout. Jika perlu, perpanjang waktu tunggu.
         capture_thread.join(timeout=2)
         
+        # Jika thread masih hidup, artinya belum berhenti dengan baik
         if capture_thread.is_alive():
             logger.error(f"Capture thread tidak berhasil dihentikan dengan benar. Campaign ID: {campaign_id}")
             raise HTTPException(status_code=500, detail="Live capture thread did not terminate properly.")
-
+        
+        # Reset variabel dan stop_event (jika akan digunakan kembali)
         capture_thread = None
-        logger.info(f"Live capture dihentikan dengan sukses. Campaign ID={campaign_id}")
+        stop_event.clear()
 
+        logger.info(f"Live capture dihentikan dengan sukses. Campaign ID={campaign_id}")
         return {"message": "Live capture stopped successfully", "campaign_id": campaign_id}
+    
     except Exception as e:
         logger.exception(f"Error saat menghentikan capture untuk Campaign ID {campaign_id}: {e}")
         raise HTTPException(status_code=500, detail=f"Error stopping capture: {str(e)}")
+
 
 @app.websocket("/ws")
 async def websocket_endpoint(websocket: WebSocket):
