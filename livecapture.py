@@ -446,7 +446,7 @@ def start_live_capture(stop_event, campaign_id):
 
     try:
         cap = pyshark.LiveCapture(interface=interface)
-        global_cap = cap  # simpan secara global agar bisa diakses dari endpoint stop
+        global_cap = cap  # Simpan untuk akses global
         logger.info(f"Memulai live capture di interface '{interface}' untuk Campaign ID={campaign_id}")
     except Exception as e:
         logger.error(f"Error initializing live capture on interface '{interface}': {e}")
@@ -455,10 +455,9 @@ def start_live_capture(stop_event, campaign_id):
     try:
         cap.set_debug()
         for packet in cap.sniff_continuously():
-            # Jika stop_event sudah diset, langsung keluar dari loop
-            if stop_event.is_set():
+            if stop_event.is_set():  # Periksa apakah stop_event aktif
                 logger.info("Stop signal diterima, menghentikan live capture...")
-                break
+                break  # Paksa keluar dari loop
 
             full_packet_structure = str(packet)
             cleaned_structure = remove_ansi_escape_codes(full_packet_structure)
@@ -512,3 +511,6 @@ def start_live_capture(stop_event, campaign_id):
         except Exception as e:
             logger.error(f"Error saat menutup live capture: {e}")
         global_cap = None
+
+
+

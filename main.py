@@ -103,38 +103,68 @@ async def start_capture(
         "campaign_name": campaign_name
     }
 
+# @app.get("/stop-capture/{campaign_id}")
+# async def stop_capture(campaign_id: int):
+#     global capture_thread, stop_event, global_cap
+#     update_campaign_status(campaign_id, 0)
+    
+#     if capture_thread is None or not capture_thread.is_alive():
+#         logger.warning(f"Percobaan menghentikan capture yang tidak berjalan. Campaign ID: {campaign_id}")
+#         raise HTTPException(status_code=400, detail="Live capture is not running")
+
+#     try:
+#         # Set stop_event untuk memberi sinyal ke thread
+#         stop_event.set()
+        
+#         # Jika global_cap masih ada, panggil close() untuk memaksa keluar dari blocking read
+#         if global_cap is not None:
+#             global_cap.close()
+        
+#         capture_thread.join(timeout=2)
+        
+#         if capture_thread.is_alive():
+#             logger.error(f"Capture thread tidak berhasil dihentikan dengan benar. Campaign ID: {campaign_id}")
+#             raise HTTPException(status_code=500, detail="Live capture thread did not terminate properly.")
+        
+#         capture_thread = None
+#         stop_event.clear()
+
+#         logger.info(f"Live capture dihentikan dengan sukses. Campaign ID={campaign_id}")
+#         return {"message": "Live capture stopped successfully", "campaign_id": campaign_id}
+    
+#     except Exception as e:
+#         logger.exception(f"Error saat menghentikan capture untuk Campaign ID {campaign_id}: {e}")
+#         raise HTTPException(status_code=500, detail=f"Error stopping capture: {str(e)}")
+
 @app.get("/stop-capture/{campaign_id}")
 async def stop_capture(campaign_id: int):
     global capture_thread, stop_event, global_cap
-    update_campaign_status(campaign_id, 0)
-    
-    if capture_thread is None or not capture_thread.is_alive():
-        logger.warning(f"Percobaan menghentikan capture yang tidak berjalan. Campaign ID: {campaign_id}")
-        raise HTTPException(status_code=400, detail="Live capture is not running")
 
-    try:
-        # Set stop_event untuk memberi sinyal ke thread
-        stop_event.set()
-        
-        # Jika global_cap masih ada, panggil close() untuk memaksa keluar dari blocking read
-        if global_cap is not None:
+    if not capture_thread or not capture_thread.is_alive():
+        return {"status": "Tidak ada capture yang berjalan"}
+
+    stop_event.set()  # Kirim sinyal untuk menghentikan loop capture
+    
+    # Jika ada global_cap, tutup capture untuk memaksa keluar dari loop
+    if global_cap:
+        try:
             global_cap.close()
-        
-        capture_thread.join(timeout=2)
-        
-        if capture_thread.is_alive():
-            logger.error(f"Capture thread tidak berhasil dihentikan dengan benar. Campaign ID: {campaign_id}")
-            raise HTTPException(status_code=500, detail="Live capture thread did not terminate properly.")
-        
-        capture_thread = None
-        stop_event.clear()
+            logger.info("Pyshark capture berhasil ditutup.")
+        except Exception as e:
+            logger.error(f"Error saat menutup global_cap: {e}")
 
-        logger.info(f"Live capture dihentikan dengan sukses. Campaign ID={campaign_id}")
-        return {"message": "Live capture stopped successfully", "campaign_id": campaign_id}
-    
-    except Exception as e:
-        logger.exception(f"Error saat menghentikan capture untuk Campaign ID {campaign_id}: {e}")
-        raise HTTPException(status_code=500, detail=f"Error stopping capture: {str(e)}")
+    # Tunggu thread berhenti dengan timeout agar API tetap responsif
+    capture_thread.join(timeout=5)
+
+    if capture_thread.is_alive():
+        logger.warning("Thread masih berjalan! Memaksa penghentian...")
+        capture_thread = None  # Hapus referensi ke thread agar bisa dibuat ulang
+        return {
+           "status": "Capture dihentikan", "campaign_id": campaign_id,
+        }
+
+    update_campaign_status(campaign_id, 0)
+    return {"status": "Capture dihentikan", "campaign_id": campaign_id}
 
 
 @app.websocket("/ws")
