@@ -54,6 +54,7 @@ def get_operator_name(mcc, mnc):
 
 def extract_gsm_data(cleaned_structure):
     """Extract GSM data from cleaned packet structure."""
+    print("Start Extract GSM Data")
     data = {}
 
     # MCC and MNC 
@@ -141,6 +142,7 @@ def extract_gsm_data(cleaned_structure):
 
 def extract_lte_data(cleaned_structure):
     """Extract LTE data from cleaned packet structure."""
+    print("Start Extract LTE Data")
     data = {}
 
     # MCC and MNC
@@ -232,13 +234,46 @@ def extract_lte_data(cleaned_structure):
     # data['Status'] = True
     security_header_type_patteren = r'Security header type:\s*(\w+)'
     security_header_type_matches = re.search(security_header_type_patteren, cleaned_structure)
-    print("#############in security_header_type_matches type#############", security_header_type_matches)
     if security_header_type_matches:
         security_header_type = security_header_type_matches.group(1)
         if security_header_type == 'Plain':
             print("***********in security_header_type_matches type***********", security_header_type_matches)
             data['Status'] = False  
+    
+    # if 'q-QualMin-r9' in cleaned_structure:
+    #     print("############# QualMin Found #############")
+    #     print("*********** Setting Status to False ***********")
+    #     data['Status'] = False
+    # else:
+    #     data['Status'] = True
+
+    # QualMin_pattern = r'q-QualMin-r9:\s*(-?\d+)\s*dB'
+    # QualMin_matches = re.search(QualMin_pattern, cleaned_structure)
+
+    # if QualMin_matches:
+    #     QualMin_value = QualMin_matches.group(1)  # This will capture "-34"
+    #     print("############# QualMin Value #############")
+    #     print(f"Raw value: {QualMin_value} dB")
+        
+    #     # Convert to integer for comparison
+    #     try:
+    #         QualMin_int = int(QualMin_value)
+    #         print(f"Integer value **********************************************************************************************: {QualMin_int}")
             
+    #         # Example condition: if signal quality is below -30 dB
+    #         if QualMin_int > -35:
+    #             print("*********** Warning: Low Quality Signal ***********")
+    #             data['Status'] = False
+    #             data['SignalQuality'] = QualMin_int
+    #         else:
+    #             data['Status'] = True
+    #             data['SignalQuality'] = QualMin_int
+                
+    #     except ValueError:
+    #         print("Could not convert QualMin value to integer")
+    # else:
+    #     print("QualMin information not found in packet")
+
     return data
 
 def create_campaign():
@@ -467,12 +502,12 @@ def start_live_capture(stop_event, campaign_id):
             payload_type_matches = re.findall(r'Payload Type:\s*(\w+)', cleaned_structure)
             protocol_type_matches = re.findall(r'Protocol:\s*(\w+)', cleaned_structure)
             arfcn_type_matches = re.findall(r'ARFCN:\s*(\d+)', cleaned_structure)
-
+            print(payload_type_matches)
             if payload_type_matches:
                 payload_type = payload_type_matches[0]
                 protocol_type = protocol_type_matches[0] if protocol_type_matches else None
                 arfcn_type = arfcn_type_matches[0] if arfcn_type_matches else None
-
+                print('protocol type',protocol_type)
                 if protocol_type == 'UDP':
                     if payload_type == 'GSM':
                         gsm_data = extract_gsm_data(cleaned_structure)

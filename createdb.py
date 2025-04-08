@@ -11,7 +11,7 @@ def create_tables():
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             name TEXT ,
             status INTEGER ,
-            timestamp DATETIME 
+            timestamp DATETIvME 
         );
     """)
 
@@ -40,7 +40,8 @@ def create_tables():
             signal_level                TEXT,
             snr                         TEXT,
             rx_lev_min                  TEXT, 
-            status                      INTEGER DEFAULT 1
+            status                      INTEGER DEFAULT 1,
+            created_at                  DATETIME DEFAULT CURRENT_TIMESTAMP
         );
     """)
 
@@ -57,7 +58,8 @@ def create_tables():
             cell_identity     TEXT,
             rxlev             TEXT,
             rxlev_access_min  TEXT,
-            status            INTEGER DEFAULT 1
+            status            INTEGER DEFAULT 1,
+            created_at        DATETIME DEFAULT CURRENT_TIMESTAMP
         );
     """)
 

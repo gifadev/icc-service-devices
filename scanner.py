@@ -15,7 +15,7 @@ allowed_devices = [
     {
         "hostname": "me",
         "username": ["me", "root"],
-        "serial_number": "RR8R303RHMW"
+        "serial_number": "RR8R303RQEP"
     },
 ]
 
@@ -133,11 +133,12 @@ def run_pancashiki_command(usb_serial):
         'sudo',
         'python3',
         '-m',
-        'pancashiki',
+        'UNKNOWN',
         '-t', 'qc',
         '-u',
         '-a', usb_serial,
-        '-i', '0'
+        '-i', '0',
+        '--gsmtapv3', '--msgs', '--cacombos', '--disable-crc-check', '--trace', '--ilm', '--all-items', '--events'
     ]
 
     print("Running pancashiki command...")
