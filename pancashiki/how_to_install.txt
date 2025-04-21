@@ -1,0 +1,5 @@
+To install the software, execute:
+
+./install -p [password]
+
+note: The password is stored in the pass.txt file.

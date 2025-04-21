@@ -3,7 +3,6 @@ import re
 import json
 import time
 from database_config import connect_to_database
-import pyshark.tshark.tshark
 from broadcaster import schedule_update_broadcast 
 import logging
 
@@ -108,27 +107,6 @@ def extract_gsm_data(cleaned_structure):
             mid_value = (lower + upper) / 2
             data['RXLEV-ACCESS-MIN'] = mid_value
             
-
-    # # Cell Reselection Hysteresis
-    # hysteresis_pattern = r'Cell Reselection Hysteresis:\s*(\d+)'
-    # hysteresis_matches = re.search(hysteresis_pattern, cleaned_structure)
-    # if hysteresis_matches:
-    #     data['Cell Reselection Hysteresis'] = int(hysteresis_matches.group(1))
-
-    # # Channel Type
-    # channel_type_pattern = r'Channel Type:\s*(\w+)'
-    # channel_type_matches = re.search(channel_type_pattern, cleaned_structure)
-    # if channel_type_matches:
-    #     data['Channel Type'] = channel_type_matches.group(1)
-
-    # # GPRS Indicator
-    # gprs_pattern = r'GPRS Indicator:\s*(\w+)'
-    # gprs_matches = re.search(gprs_pattern, cleaned_structure)
-    # if gprs_matches:
-    #     data['GPRS Indicator'] = gprs_matches.group(1)
-
-    # True Or Fake BTS
-    # data['Status'] = True
     security_header_type_patteren = r'Security header type:\s*(\w+)'
     security_header_type_matches = re.search(security_header_type_patteren, cleaned_structure)
     print("#############in security_header_type_matches type#############", security_header_type_matches)
@@ -141,7 +119,6 @@ def extract_gsm_data(cleaned_structure):
     return data
 
 def extract_lte_data(cleaned_structure):
-    """Extract LTE data from cleaned packet structure."""
     print("Start Extract LTE Data")
     data = {}
 
@@ -190,48 +167,16 @@ def extract_lte_data(cleaned_structure):
     rxlevelmin_pattern = r'q-RxLevMin:\s*(-?\d+dBm\s*\(-?\d+\))'
     rxlevelmin_matches = re.findall(rxlevelmin_pattern, cleaned_structure)
     if rxlevelmin_matches:
-        # data['Rx Level Min'] = rxlevelmin_matches[0]
         rxlevelmin_str = rxlevelmin_matches[0] 
-        # Ambil angka di dalam tanda kurung
         inner_match = re.search(r'\((-?\d+)\)', rxlevelmin_str)
         if inner_match:
             data['Rx Level Min'] = int(inner_match.group(1))
             
-        # outer_match = re.search(r'(-?\d+)dBm', rxlevelmin_str)
-        # if outer_match:
-        #     data['Rx Level Min'] = int(outer_match.group(1))
-
     signal_noise_ratio = r'Signal Level:\s*([-\d]+)\s*dBm'
     signal_noise_ratio_matches = re.findall(signal_noise_ratio, cleaned_structure)
     if signal_noise_ratio_matches:
         data['snr'] = int(signal_noise_ratio_matches[0])
 
-    # # Scheduling Info
-    # scheduling_info_pattern = r'schedulingInfoList:\s*\d+\s*items\s*SchedulingInfo\s*(\S+)'
-    # scheduling_info_matches = re.findall(scheduling_info_pattern, cleaned_structure)
-    # if scheduling_info_matches:
-    #     data['Scheduling Info'] = ', '.join(scheduling_info_matches)
-
-    # # IMS Emergency Support
-    # ims_support_pattern = r'ims-EmergencySupport-r9:\s*(\w+)'
-    # ims_support_matches = re.findall(ims_support_pattern, cleaned_structure)
-    # if ims_support_matches:
-    #     data['IMS Emergency Support'] = ims_support_matches[0]
-
-    # # q-RxLevMin
-    # q_rxlev_pattern = r'q-RxLevMin:\s*([-\d]+)dBm'
-    # q_rxlev_matches = re.findall(q_rxlev_pattern, cleaned_structure)
-    # if q_rxlev_matches:
-    #     data['q-RxLevMin'] = q_rxlev_matches[0]
-
-    # # si-WindowLength
-    # si_window_length_pattern = r'si-WindowLength:\s*([^\(]+)\s*\(\d+\)'
-    # si_window_length_matches = re.findall(si_window_length_pattern, cleaned_structure)
-    # if si_window_length_matches:
-    #     data['si-WindowLength'] = si_window_length_matches[0]
-
-    # True Or Fake BTS
-    # data['Status'] = True
     security_header_type_patteren = r'Security header type:\s*(\w+)'
     security_header_type_matches = re.search(security_header_type_patteren, cleaned_structure)
     if security_header_type_matches:
@@ -240,39 +185,6 @@ def extract_lte_data(cleaned_structure):
             print("***********in security_header_type_matches type***********", security_header_type_matches)
             data['Status'] = False  
     
-    # if 'q-QualMin-r9' in cleaned_structure:
-    #     print("############# QualMin Found #############")
-    #     print("*********** Setting Status to False ***********")
-    #     data['Status'] = False
-    # else:
-    #     data['Status'] = True
-
-    # QualMin_pattern = r'q-QualMin-r9:\s*(-?\d+)\s*dB'
-    # QualMin_matches = re.search(QualMin_pattern, cleaned_structure)
-
-    # if QualMin_matches:
-    #     QualMin_value = QualMin_matches.group(1)  # This will capture "-34"
-    #     print("############# QualMin Value #############")
-    #     print(f"Raw value: {QualMin_value} dB")
-        
-    #     # Convert to integer for comparison
-    #     try:
-    #         QualMin_int = int(QualMin_value)
-    #         print(f"Integer value **********************************************************************************************: {QualMin_int}")
-            
-    #         # Example condition: if signal quality is below -30 dB
-    #         if QualMin_int > -35:
-    #             print("*********** Warning: Low Quality Signal ***********")
-    #             data['Status'] = False
-    #             data['SignalQuality'] = QualMin_int
-    #         else:
-    #             data['Status'] = True
-    #             data['SignalQuality'] = QualMin_int
-                
-    #     except ValueError:
-    #         print("Could not convert QualMin value to integer")
-    # else:
-    #     print("QualMin information not found in packet")
 
     return data
 
@@ -324,7 +236,7 @@ def save_gsm_data_to_db(gsm_data, campaign_id):
                 data.get('ARFCN'),
             )
 
-            # 🔹 Kasus 1: Data memiliki MCC, MNC, Local Area Code, dan Cell Identity
+            # Kasus 1: Data memiliki MCC, MNC, Local Area Code, dan Cell Identity
             if all([mcc, mnc, local_area_code, cell_identity]):
                 check_sql = """
                 SELECT id FROM gsm 
@@ -353,7 +265,7 @@ def save_gsm_data_to_db(gsm_data, campaign_id):
                     cursor.execute(sql, values)
                     schedule_update_broadcast(campaign_id)
 
-            # 🔹 Kasus 2: MCC dan MNC kosong, tetapi Status memiliki nilai
+            #  Kasus 2: MCC dan MNC kosong, tetapi Status memiliki nilai
             elif (not mcc or not mnc) and data.get('Status') is not None:
                 select_sql = """
                 SELECT id FROM gsm WHERE arfcn = ? AND id_campaign = ?
@@ -404,7 +316,7 @@ def save_lte_data_to_db(lte_data, campaign_id):
                 data.get('ARFCN'),
             )
 
-            # 🔹 Kasus 1: Data memiliki MCC, MNC, TAC, dan Cell Identity
+            # Kasus 1: Data memiliki MCC, MNC, TAC, dan Cell Identity
             if all([mcc, mnc, tracking_area_code, cell_identity]):
                 check_sql = """
                 SELECT id FROM lte 
@@ -436,7 +348,7 @@ def save_lte_data_to_db(lte_data, campaign_id):
                     cursor.execute(sql, values)
                     schedule_update_broadcast(campaign_id)
 
-            # 🔹 Kasus 2: MCC dan MNC kosong, tetapi Status memiliki nilai
+            # Kasus 2: MCC dan MNC kosong, tetapi Status memiliki nilai
             elif (not mcc or not mnc) and data.get('Status') is not None:
                 select_sql = """
                 SELECT id FROM lte WHERE arfcn = ? AND id_campaign = ?
@@ -477,11 +389,11 @@ def start_live_capture(stop_event, campaign_id):
     packet_count = 0
     start_time = time.time()
     
-    interface = 'lo'  # Sesuaikan dengan antarmuka jaringan yang digunakan
+    interface = 'lo' 
 
     try:
         cap = pyshark.LiveCapture(interface=interface)
-        global_cap = cap  # Simpan untuk akses global
+        global_cap = cap 
         logger.info(f"Memulai live capture di interface '{interface}' untuk Campaign ID={campaign_id}")
     except Exception as e:
         logger.error(f"Error initializing live capture on interface '{interface}': {e}")
@@ -490,9 +402,9 @@ def start_live_capture(stop_event, campaign_id):
     try:
         cap.set_debug()
         for packet in cap.sniff_continuously():
-            if stop_event.is_set():  # Periksa apakah stop_event aktif
+            if stop_event.is_set():  
                 logger.info("Stop signal diterima, menghentikan live capture...")
-                break  # Paksa keluar dari loop
+                break 
 
             full_packet_structure = str(packet)
             cleaned_structure = remove_ansi_escape_codes(full_packet_structure)
@@ -521,7 +433,6 @@ def start_live_capture(stop_event, campaign_id):
                             existing_data_lte.append(lte_data)
             packet_count += 1
 
-            # Simpan data setiap 10 paket atau setiap 60 detik
             if packet_count % 10 == 0 or (time.time() - start_time) >= 60:
                 with open(output_file_gsm, 'w') as f:
                     json.dump(existing_data_gsm, f, indent=4)

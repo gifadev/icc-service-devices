@@ -133,12 +133,12 @@ def run_pancashiki_command(usb_serial):
         'sudo',
         'python3',
         '-m',
-        'UNKNOWN',
+        'pancashiki',
         '-t', 'qc',
         '-u',
         '-a', usb_serial,
-        '-i', '0',
-        '--gsmtapv3', '--msgs', '--cacombos', '--disable-crc-check', '--trace', '--ilm', '--all-items', '--events'
+        '-i', '0'
+        #'--gsmtapv3', '--msgs', '--cacombos', '--disable-crc-check', '--trace', '--ilm', '--all-items', '--events'
     ]
 
     print("Running pancashiki command...")
