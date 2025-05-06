@@ -15,7 +15,7 @@ allowed_devices = [
     {
         "hostname": "me",
         "username": ["me", "root"],
-        "serial_number": "RR8R303RQEP"
+        "serial_number": "RR8R3034GPA"
     },
 ]
 

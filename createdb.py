@@ -39,7 +39,8 @@ def create_tables():
             frequency_band_indicator    TEXT,
             signal_level                TEXT,
             snr                         TEXT,
-            rx_lev_min                  TEXT, 
+            rx_lev_min                  TEXT,
+            rssi                        REAL,
             status                      INTEGER DEFAULT 1,
             created_at                  DATETIME DEFAULT CURRENT_TIMESTAMP
         );
@@ -58,6 +59,7 @@ def create_tables():
             cell_identity     TEXT,
             rxlev             TEXT,
             rxlev_access_min  TEXT,
+            rssi              REAL,
             status            INTEGER DEFAULT 1,
             created_at        DATETIME DEFAULT CURRENT_TIMESTAMP
         );

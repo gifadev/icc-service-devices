@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: panchashiki
+Version: 1.0
+Summary: Pancashiki Signal Analyzer
+Author-email: Topi Putih <topiputih1337@gmail.com>
+License: GPL-2.0-or-later
+Project-URL: Homepage, https://github.com/purwowd/pancashiki
+Project-URL: Bug Tracker, https://github.com/purwowd/pancashiki/issues
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pyusb>=1.0.2
+Requires-Dist: pyserial>=3.3
+Requires-Dist: bitstring>=3.1.7
+Requires-Dist: packaging>=19.0
+Provides-Extra: fastcrc
+Requires-Dist: libscrc>=1.8.0; extra == "fastcrc"

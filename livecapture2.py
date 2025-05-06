@@ -41,12 +41,14 @@ def get_operator_name(mcc, mnc):
         ('510', '09'): 'Smartfren',
         ('510', '10'): 'Telkomsel',
         ('510', '11'): 'XL',
-        ('510', '21'): 'Indosat', 
+        ('510', '21'): 'Indosat',
+        ('510', '22'): 'Indosat',
         ('510', '20'): 'TelkomFlexi',  
         ('510', '27'): 'Net 1',
         ('510', '28'): 'Smartfren',
         ('510', '78'): 'Hinet',
         ('510', '88'): 'BOLT',
+        ('510', '89'): '3',
         ('510', '99'): 'Esia',
     }
     return operator_db.get((mcc, mnc), 'Unknown Operator')
@@ -254,6 +256,7 @@ def score_packet_gsm(data):
     # 2. T3212:
     t3212 = data.get("T3212")
     if t3212 is not None:
+        print(f"$$$$$$$$$$$$$$${t3212}")
         if t3212 <= 0:
             score += 20
             details.append("T3212 <= 0: +20")
@@ -309,17 +312,19 @@ def score_packet_gsm(data):
             cro_score = 40
         else:
             cro_score = ((cell_reselect - 115) / 15) * 40
-
+    print(f"############## total risk ############ : {total_risk}")
+    print(f"############## cro score ############ : {cro_score}")
     threshold = 60 
-    is_fake = (cro_score < 40) and (total_risk > threshold)
-
+    is_fake = (cro_score < 40) and (total_risk >= threshold)
+    print(f'###############******* {is_fake}')
     details.append(f"CRO Score: {cro_score}")
     details.append(f"Total Risk: {total_risk}")
     details.append(f"Is Fake: {is_fake}")
 
     # Menambahkan ke hasil
     data['is_fake'] = is_fake
-
+    print(data['is_fake'])
+    print(details)
     return score, details
 
 def score_packet_lte(cleaned_structure):
@@ -360,6 +365,7 @@ def score_packet_lte(cleaned_structure):
 def evaluate_packet_gsm(cleaned_structure):
     data = extract_gsm_data(cleaned_structure)
     score, details = score_packet_gsm(data)
+    print(f"ini dataaa$$$$$$$$$$$$$$${data}")
     status = True if not data.get("is_fake") else False
     arfcn = data.get('ARFCN')
     if arfcn != 0:
@@ -487,28 +493,29 @@ def save_gsm_data_to_db(gsm_data, campaign_id):
                         data.get('Cell Identity'),
                         data.get('RxLev'),
                         data.get('RXLEV-ACCESS-MIN'),
-                        data.get('Status'),
+                        data.get('status'),
                         campaign_id
                     )
                     cursor.execute(sql, values)
+                    print(">>##################################$$$$$$$$$$$$$$$$$$$$$$$$$$$$$********************************************************* Disimpan ke DB:", values)
                     schedule_update_broadcast(campaign_id)
 
             #  Kasus 2: MCC dan MNC kosong, tetapi Status memiliki nilai
-            elif (not mcc or not mnc) and data.get('Status') is not None:
-                select_sql = """
-                SELECT id FROM gsm WHERE arfcn = ? AND id_campaign = ?
-                """
-                cursor.execute(select_sql, (data.get('ARFCN'), campaign_id))
-                results = cursor.fetchall()
+            # elif (not mcc or not mnc) and data.get('Status') is not None:
+            #     select_sql = """
+            #     SELECT id FROM gsm WHERE arfcn = ? AND id_campaign = ?
+            #     """
+            #     cursor.execute(select_sql, (data.get('ARFCN'), campaign_id))
+            #     results = cursor.fetchall()
 
-                if results:
-                    update_sql = """
-                    UPDATE gsm SET status = ? WHERE arfcn = ? AND id_campaign = ?
-                    """
-                    cursor.execute(update_sql, (data.get('Status'), data.get('ARFCN'), campaign_id))
-                    logger.info(f"Status GSM diperbarui untuk Campaign ID={campaign_id}, ARFCN={data.get('ARFCN')}")
+            #     if results:
+            #         update_sql = """
+            #         UPDATE gsm SET status = ? WHERE arfcn = ? AND id_campaign = ?
+            #         """
+            #         cursor.execute(update_sql, (data.get('Status'), data.get('ARFCN'), campaign_id))
+            #         logger.info(f"Status GSM diperbarui untuk Campaign ID={campaign_id}, ARFCN={data.get('ARFCN')}")
 
-                    schedule_update_broadcast(campaign_id)
+            #         schedule_update_broadcast(campaign_id)
 
         connection.commit()
         logger.info(f"Data GSM berhasil disimpan untuk Campaign ID={campaign_id}")
@@ -642,12 +649,11 @@ def start_live_capture(stop_event, campaign_id):
             payload_type_matches = re.findall(r'Payload Type:\s*(\w+)', cleaned_structure)
             protocol_type_matches = re.findall(r'Protocol:\s*(\w+)', cleaned_structure)
             arfcn_type_matches = re.findall(r'ARFCN:\s*(\d+)', cleaned_structure)
-            print(payload_type_matches)
+            
             if payload_type_matches:
                 payload_type = payload_type_matches[0]
                 protocol_type = protocol_type_matches[0] if protocol_type_matches else None
                 arfcn_type = arfcn_type_matches[0] if arfcn_type_matches else None
-                print('protocol type',protocol_type)
                 if protocol_type == 'UDP':
                     if payload_type == 'GSM':
                         gsm_data = evaluate_packet_gsm(cleaned_structure)

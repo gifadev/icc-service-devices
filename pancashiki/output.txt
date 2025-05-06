@@ -1,0 +1,999 @@
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 700, RSRP: -61.74, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.57/-77.91, Filtered RSRP/RSRQ (Nr2Nr): -61.23/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.23/-86.55, Filtered RSRP/RSRQ (Nr2Nr): -62.29/-10.34, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -67.79/-92.38, Filtered RSRP/RSRQ (Nr2Nr): -67.93/-10.76, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -70.80/-95.62, Filtered RSRP/RSRQ (Nr2Nr): -70.91/-10.63, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 716, RSRP: -62.04, RSRQ: -10.34, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.09/-81.15, Filtered RSRP/RSRQ (Nr2Nr): -61.48/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.88/-82.79, Filtered RSRP/RSRQ (Nr2Nr): -62.67/-10.36, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.34/-89.44, Filtered RSRP/RSRQ (Nr2Nr): -68.20/-10.78, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.25/-93.79, Filtered RSRP/RSRQ (Nr2Nr): -71.13/-10.62, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 732, RSRP: -61.80, RSRQ: -10.34, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.28/-85.66, Filtered RSRP/RSRQ (Nr2Nr): -61.23/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.28/-84.35, Filtered RSRP/RSRQ (Nr2Nr): -62.42/-10.35, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.22/-88.37, Filtered RSRP/RSRQ (Nr2Nr): -68.21/-10.83, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.02/-92.30, Filtered RSRP/RSRQ (Nr2Nr): -71.05/-10.64, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 748, RSRP: -61.91, RSRQ: -10.34, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.23/-79.10, Filtered RSRP/RSRQ (Nr2Nr): -61.24/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.88/-86.18, Filtered RSRP/RSRQ (Nr2Nr): -62.72/-10.35, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.42/-88.40, Filtered RSRP/RSRQ (Nr2Nr): -68.34/-10.78, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.46/-93.17, Filtered RSRP/RSRQ (Nr2Nr): -71.32/-10.61, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 764, RSRP: -61.81, RSRQ: -10.34, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -60.66/-79.95, Filtered RSRP/RSRQ (Nr2Nr): -61.02/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.84/-80.47, Filtered RSRP/RSRQ (Nr2Nr): -62.80/-10.35, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.18/-84.95, Filtered RSRP/RSRQ (Nr2Nr): -68.23/-10.77, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.44/-88.12, Filtered RSRP/RSRQ (Nr2Nr): -71.40/-10.59, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 780, RSRP: -61.52, RSRQ: -10.34, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -60.99/-81.08, Filtered RSRP/RSRQ (Nr2Nr): -60.88/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -61.88/-82.57, Filtered RSRP/RSRQ (Nr2Nr): -62.20/-10.34, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -67.79/-89.52, Filtered RSRP/RSRQ (Nr2Nr): -67.95/-10.77, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -70.88/-91.95, Filtered RSRP/RSRQ (Nr2Nr): -71.06/-10.60, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 796, RSRP: -61.52, RSRQ: -10.34, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -60.93/-78.24, Filtered RSRP/RSRQ (Nr2Nr): -60.89/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.21/-86.01, Filtered RSRP/RSRQ (Nr2Nr): -62.21/-10.33, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.14/-92.06, Filtered RSRP/RSRQ (Nr2Nr): -68.07/-10.80, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -70.97/-95.59, Filtered RSRP/RSRQ (Nr2Nr): -71.00/-10.60, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 782, RSRP: -77.70, RSRQ: -14.39, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -77.70/-92.73, Filtered RSRP/RSRQ (Nr2Nr): -77.70/-14.39, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 812, RSRP: -61.58, RSRQ: -10.34, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.73/-82.07, Filtered RSRP/RSRQ (Nr2Nr): -60.98/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.27/-84.76, Filtered RSRP/RSRQ (Nr2Nr): -62.25/-10.34, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -67.77/-89.95, Filtered RSRP/RSRQ (Nr2Nr): -67.88/-10.73, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -70.73/-94.38, Filtered RSRP/RSRQ (Nr2Nr): -70.82/-10.59, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 782, RSRP: -78.31, RSRQ: -16.53, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -78.66/-95.23, Filtered RSRP/RSRQ (Nr2Nr): -78.31/-16.53, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 828, RSRP: -62.20, RSRQ: -10.34, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.78/-75.41, Filtered RSRP/RSRQ (Nr2Nr): -61.58/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -63.37/-85.48, Filtered RSRP/RSRQ (Nr2Nr): -62.97/-10.34, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.95/-90.59, Filtered RSRP/RSRQ (Nr2Nr): -68.57/-10.73, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -72.31/-94.29, Filtered RSRP/RSRQ (Nr2Nr): -71.78/-10.59, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 782, RSRP: -79.13, RSRQ: -16.38, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -79.58/-94.28, Filtered RSRP/RSRQ (Nr2Nr): -79.13/-16.38, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 844, RSRP: -62.26, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.21/-80.48, Filtered RSRP/RSRQ (Nr2Nr): -61.55/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -63.21/-78.58, Filtered RSRP/RSRQ (Nr2Nr): -63.12/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.82/-84.55, Filtered RSRP/RSRQ (Nr2Nr): -68.73/-10.73, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.63/-87.54, Filtered RSRP/RSRQ (Nr2Nr): -71.69/-10.55, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 782, RSRP: -79.41, RSRQ: -17.92, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -79.55/-91.95, Filtered RSRP/RSRQ (Nr2Nr): -79.41/-17.92, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 860, RSRP: -62.20, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.92/-78.91, Filtered RSRP/RSRQ (Nr2Nr): -61.56/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.82/-83.07, Filtered RSRP/RSRQ (Nr2Nr): -62.93/-10.34, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.48/-89.77, Filtered RSRP/RSRQ (Nr2Nr): -68.57/-10.79, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.50/-93.05, Filtered RSRP/RSRQ (Nr2Nr): -71.57/-10.58, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 782, RSRP: -78.56, RSRQ: -18.73, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -78.09/-96.41, Filtered RSRP/RSRQ (Nr2Nr): -78.56/-18.73, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 876, RSRP: -62.41, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.80/-80.38, Filtered RSRP/RSRQ (Nr2Nr): -61.70/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -63.44/-81.20, Filtered RSRP/RSRQ (Nr2Nr): -63.26/-10.34, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -69.45/-87.50, Filtered RSRP/RSRQ (Nr2Nr): -69.14/-10.84, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -72.26/-90.28, Filtered RSRP/RSRQ (Nr2Nr): -72.02/-10.58, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 782, RSRP: -78.61, RSRQ: -19.59, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -78.64/-97.20, Filtered RSRP/RSRQ (Nr2Nr): -78.61/-19.59, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 892, RSRP: -62.59, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -62.27/-80.54, Filtered RSRP/RSRQ (Nr2Nr): -61.90/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -63.52/-82.10, Filtered RSRP/RSRQ (Nr2Nr): -63.42/-10.37, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -69.07/-87.52, Filtered RSRP/RSRQ (Nr2Nr): -69.09/-10.85, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.86/-90.38, Filtered RSRP/RSRQ (Nr2Nr): -71.91/-10.57, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 782, RSRP: -78.34, RSRQ: -19.84, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -78.20/-97.97, Filtered RSRP/RSRQ (Nr2Nr): -78.34/-19.84, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 908, RSRP: -62.74, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -62.13/-80.55, Filtered RSRP/RSRQ (Nr2Nr): -62.05/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -63.66/-82.55, Filtered RSRP/RSRQ (Nr2Nr): -63.58/-10.36, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -69.54/-89.75, Filtered RSRP/RSRQ (Nr2Nr): -69.38/-10.84, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -72.45/-92.74, Filtered RSRP/RSRQ (Nr2Nr): -72.26/-10.59, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 782, RSRP: -78.61, RSRQ: -19.42, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -78.76/-96.82, Filtered RSRP/RSRQ (Nr2Nr): -78.61/-19.42, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 924, RSRP: -62.58, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.95/-80.23, Filtered RSRP/RSRQ (Nr2Nr): -61.88/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -63.31/-82.98, Filtered RSRP/RSRQ (Nr2Nr): -63.41/-10.36, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.84/-89.27, Filtered RSRP/RSRQ (Nr2Nr): -69.03/-10.79, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -72.09/-93.20, Filtered RSRP/RSRQ (Nr2Nr): -72.15/-10.61, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 782, RSRP: -78.57, RSRQ: -20.09, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -78.55/-98.18, Filtered RSRP/RSRQ (Nr2Nr): -78.57/-20.09, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 940, RSRP: -62.52, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.41/-76.60, Filtered RSRP/RSRQ (Nr2Nr): -61.80/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -63.34/-83.62, Filtered RSRP/RSRQ (Nr2Nr): -63.36/-10.34, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -69.12/-89.47, Filtered RSRP/RSRQ (Nr2Nr): -69.09/-10.85, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -72.05/-91.90, Filtered RSRP/RSRQ (Nr2Nr): -72.09/-10.62, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 782, RSRP: -78.01, RSRQ: -18.23, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -77.70/-94.24, Filtered RSRP/RSRQ (Nr2Nr): -78.01/-18.23, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 956, RSRP: -62.25, RSRQ: -10.32, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.30/-77.66, Filtered RSRP/RSRQ (Nr2Nr): -61.57/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.85/-80.78, Filtered RSRP/RSRQ (Nr2Nr): -63.03/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.36/-86.91, Filtered RSRP/RSRQ (Nr2Nr): -68.62/-10.80, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.48/-89.91, Filtered RSRP/RSRQ (Nr2Nr): -71.70/-10.63, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 782, RSRP: -78.41, RSRQ: -17.35, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -78.64/-91.95, Filtered RSRP/RSRQ (Nr2Nr): -78.41/-17.35, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 972, RSRP: -62.34, RSRQ: -10.32, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.88/-78.08, Filtered RSRP/RSRQ (Nr2Nr): -61.78/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.94/-80.32, Filtered RSRP/RSRQ (Nr2Nr): -62.97/-10.34, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.64/-87.04, Filtered RSRP/RSRQ (Nr2Nr): -68.63/-10.80, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.88/-89.66, Filtered RSRP/RSRQ (Nr2Nr): -71.81/-10.68, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 782, RSRP: -78.09, RSRQ: -17.38, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -77.91/-92.77, Filtered RSRP/RSRQ (Nr2Nr): -78.09/-17.38, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 988, RSRP: -62.48, RSRQ: -10.32, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.63/-76.88, Filtered RSRP/RSRQ (Nr2Nr): -61.90/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -63.27/-80.16, Filtered RSRP/RSRQ (Nr2Nr): -63.16/-10.31, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -69.14/-86.53, Filtered RSRP/RSRQ (Nr2Nr): -68.96/-10.84, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.98/-89.30, Filtered RSRP/RSRQ (Nr2Nr): -71.92/-10.67, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 782, RSRP: -77.97, RSRQ: -17.68, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -77.90/-92.58, Filtered RSRP/RSRQ (Nr2Nr): -77.97/-17.68, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 1004, RSRP: -62.34, RSRQ: -10.32, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.77/-78.09, Filtered RSRP/RSRQ (Nr2Nr): -61.72/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -63.01/-79.20, Filtered RSRP/RSRQ (Nr2Nr): -63.06/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.42/-86.06, Filtered RSRP/RSRQ (Nr2Nr): -68.61/-10.80, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.28/-89.09, Filtered RSRP/RSRQ (Nr2Nr): -71.51/-10.62, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 782, RSRP: -77.48, RSRQ: -17.93, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -77.20/-92.28, Filtered RSRP/RSRQ (Nr2Nr): -77.48/-17.93, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 1020, RSRP: -62.37, RSRQ: -10.32, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.23/-76.62, Filtered RSRP/RSRQ (Nr2Nr): -61.68/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -63.26/-81.16, Filtered RSRP/RSRQ (Nr2Nr): -63.19/-10.34, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -69.03/-87.19, Filtered RSRP/RSRQ (Nr2Nr): -68.88/-10.83, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.98/-90.89, Filtered RSRP/RSRQ (Nr2Nr): -71.81/-10.66, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 782, RSRP: -77.57, RSRQ: -17.52, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -77.62/-92.41, Filtered RSRP/RSRQ (Nr2Nr): -77.57/-17.52, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 12, RSRP: -62.20, RSRQ: -10.34, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -62.21/-78.50, Filtered RSRP/RSRQ (Nr2Nr): -61.50/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.39/-79.17, Filtered RSRP/RSRQ (Nr2Nr): -62.67/-10.33, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -67.82/-85.27, Filtered RSRP/RSRQ (Nr2Nr): -68.20/-10.78, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -70.97/-88.22, Filtered RSRP/RSRQ (Nr2Nr): -71.27/-10.62, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 782, RSRP: -77.89, RSRQ: -18.76, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -78.06/-93.20, Filtered RSRP/RSRQ (Nr2Nr): -77.89/-18.76, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 28, RSRP: -62.52, RSRQ: -10.34, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.92/-78.42, Filtered RSRP/RSRQ (Nr2Nr): -61.68/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -63.93/-83.92, Filtered RSRP/RSRQ (Nr2Nr): -63.48/-10.35, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -69.33/-90.74, Filtered RSRP/RSRQ (Nr2Nr): -68.93/-10.82, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -72.39/-94.12, Filtered RSRP/RSRQ (Nr2Nr): -71.99/-10.64, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 782, RSRP: -78.04, RSRQ: -16.64, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -78.12/-92.84, Filtered RSRP/RSRQ (Nr2Nr): -78.04/-16.64, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 44, RSRP: -62.39, RSRQ: -10.32, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -62.21/-78.16, Filtered RSRP/RSRQ (Nr2Nr): -61.80/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.77/-80.74, Filtered RSRP/RSRQ (Nr2Nr): -63.02/-10.33, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.27/-88.12, Filtered RSRP/RSRQ (Nr2Nr): -68.50/-10.79, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.24/-90.66, Filtered RSRP/RSRQ (Nr2Nr): -71.51/-10.63, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 782, RSRP: -78.68, RSRQ: -15.90, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -79.03/-91.08, Filtered RSRP/RSRQ (Nr2Nr): -78.68/-15.90, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 60, RSRP: -62.34, RSRQ: -10.32, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.27/-76.00, Filtered RSRP/RSRQ (Nr2Nr): -61.62/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -63.31/-78.18, Filtered RSRP/RSRQ (Nr2Nr): -63.21/-10.33, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.89/-84.38, Filtered RSRP/RSRQ (Nr2Nr): -68.75/-10.78, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.77/-87.00, Filtered RSRP/RSRQ (Nr2Nr): -71.67/-10.59, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 782, RSRP: -78.45, RSRQ: -16.92, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -78.32/-90.37, Filtered RSRP/RSRQ (Nr2Nr): -78.45/-16.92, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 76, RSRP: -61.92, RSRQ: -10.32, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.05/-79.52, Filtered RSRP/RSRQ (Nr2Nr): -61.23/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.39/-79.66, Filtered RSRP/RSRQ (Nr2Nr): -62.68/-10.31, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -67.98/-86.83, Filtered RSRP/RSRQ (Nr2Nr): -68.25/-10.78, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.05/-88.91, Filtered RSRP/RSRQ (Nr2Nr): -71.27/-10.62, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 782, RSRP: -77.97, RSRQ: -16.41, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -77.70/-90.69, Filtered RSRP/RSRQ (Nr2Nr): -77.97/-16.41, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 92, RSRP: -61.91, RSRQ: -10.32, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -60.60/-76.24, Filtered RSRP/RSRQ (Nr2Nr): -61.14/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.91/-83.52, Filtered RSRP/RSRQ (Nr2Nr): -62.83/-10.34, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.39/-89.09, Filtered RSRP/RSRQ (Nr2Nr): -68.34/-10.81, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.38/-91.88, Filtered RSRP/RSRQ (Nr2Nr): -71.34/-10.61, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 782, RSRP: -77.79, RSRQ: -16.98, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -77.69/-94.28, Filtered RSRP/RSRQ (Nr2Nr): -77.79/-16.98, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 108, RSRP: -61.98, RSRQ: -10.35, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.64/-78.01, Filtered RSRP/RSRQ (Nr2Nr): -61.18/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.04/-78.90, Filtered RSRP/RSRQ (Nr2Nr): -62.32/-10.34, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -67.42/-85.70, Filtered RSRP/RSRQ (Nr2Nr): -67.75/-10.75, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -70.69/-87.79, Filtered RSRP/RSRQ (Nr2Nr): -70.91/-10.57, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 782, RSRP: -77.50, RSRQ: -17.47, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -77.34/-91.82, Filtered RSRP/RSRQ (Nr2Nr): -77.50/-17.47, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 124, RSRP: -62.27, RSRQ: -10.34, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -62.10/-78.16, Filtered RSRP/RSRQ (Nr2Nr): -61.66/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -63.00/-82.41, Filtered RSRP/RSRQ (Nr2Nr): -62.76/-10.33, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.84/-89.61, Filtered RSRP/RSRQ (Nr2Nr): -68.45/-10.77, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.79/-91.78, Filtered RSRP/RSRQ (Nr2Nr): -71.48/-10.55, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 782, RSRP: -78.06, RSRQ: -15.84, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -78.38/-91.46, Filtered RSRP/RSRQ (Nr2Nr): -78.06/-15.84, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 140, RSRP: -62.43, RSRQ: -10.34, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.73/-75.59, Filtered RSRP/RSRQ (Nr2Nr): -61.66/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -63.59/-80.62, Filtered RSRP/RSRQ (Nr2Nr): -63.30/-10.37, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -69.14/-87.63, Filtered RSRP/RSRQ (Nr2Nr): -68.90/-10.81, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -72.03/-89.77, Filtered RSRP/RSRQ (Nr2Nr): -71.84/-10.57, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 782, RSRP: -78.52, RSRQ: -17.01, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -78.77/-93.13, Filtered RSRP/RSRQ (Nr2Nr): -78.52/-17.01, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 156, RSRP: -62.21, RSRQ: -10.34, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.39/-78.78, Filtered RSRP/RSRQ (Nr2Nr): -61.50/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.82/-79.30, Filtered RSRP/RSRQ (Nr2Nr): -62.99/-10.36, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.46/-87.02, Filtered RSRP/RSRQ (Nr2Nr): -68.62/-10.81, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.27/-88.80, Filtered RSRP/RSRQ (Nr2Nr): -71.48/-10.59, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 782, RSRP: -78.45, RSRQ: -17.56, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -78.41/-92.95, Filtered RSRP/RSRQ (Nr2Nr): -78.45/-17.56, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 172, RSRP: -62.16, RSRQ: -10.34, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.87/-79.34, Filtered RSRP/RSRQ (Nr2Nr): -61.48/-10.31, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.89/-83.79, Filtered RSRP/RSRQ (Nr2Nr): -62.93/-10.34, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.70/-92.42, Filtered RSRP/RSRQ (Nr2Nr): -68.66/-10.82, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.45/-94.55, Filtered RSRP/RSRQ (Nr2Nr): -71.46/-10.60, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 782, RSRP: -77.96, RSRQ: -15.99, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -77.69/-93.72, Filtered RSRP/RSRQ (Nr2Nr): -77.96/-15.99, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 188, RSRP: -62.35, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.41/-80.82, Filtered RSRP/RSRQ (Nr2Nr): -61.69/-10.31, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -63.22/-83.55, Filtered RSRP/RSRQ (Nr2Nr): -63.12/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -69.05/-92.42, Filtered RSRP/RSRQ (Nr2Nr): -68.91/-10.80, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.95/-93.57, Filtered RSRP/RSRQ (Nr2Nr): -71.78/-10.61, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 782, RSRP: -78.30, RSRQ: -15.80, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -78.49/-94.54, Filtered RSRP/RSRQ (Nr2Nr): -78.30/-15.80, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 204, RSRP: -62.13, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.05/-83.74, Filtered RSRP/RSRQ (Nr2Nr): -61.39/-10.31, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.95/-85.60, Filtered RSRP/RSRQ (Nr2Nr): -63.01/-10.34, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.51/-93.61, Filtered RSRP/RSRQ (Nr2Nr): -68.65/-10.80, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.43/-95.81, Filtered RSRP/RSRQ (Nr2Nr): -71.55/-10.59, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 782, RSRP: -78.40, RSRQ: -15.85, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -78.45/-96.09, Filtered RSRP/RSRQ (Nr2Nr): -78.40/-15.85, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 220, RSRP: -61.76, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -60.66/-80.00, Filtered RSRP/RSRQ (Nr2Nr): -61.05/-10.31, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.29/-87.12, Filtered RSRP/RSRQ (Nr2Nr): -62.55/-10.36, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -67.73/-93.69, Filtered RSRP/RSRQ (Nr2Nr): -68.06/-10.76, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -70.91/-97.05, Filtered RSRP/RSRQ (Nr2Nr): -71.13/-10.57, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 782, RSRP: -78.16, RSRQ: -16.66, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -78.03/-97.51, Filtered RSRP/RSRQ (Nr2Nr): -78.16/-16.66, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 236, RSRP: -61.67, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -60.84/-77.49, Filtered RSRP/RSRQ (Nr2Nr): -61.03/-10.31, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.27/-84.65, Filtered RSRP/RSRQ (Nr2Nr): -62.37/-10.34, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -67.76/-92.25, Filtered RSRP/RSRQ (Nr2Nr): -67.87/-10.77, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -70.89/-94.47, Filtered RSRP/RSRQ (Nr2Nr): -70.98/-10.62, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 782, RSRP: -77.78, RSRQ: -16.12, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -77.57/-94.76, Filtered RSRP/RSRQ (Nr2Nr): -77.78/-16.12, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 252, RSRP: -61.67, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -60.84/-76.95, Filtered RSRP/RSRQ (Nr2Nr): -61.02/-10.31, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.47/-81.85, Filtered RSRP/RSRQ (Nr2Nr): -62.42/-10.34, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -67.91/-89.46, Filtered RSRP/RSRQ (Nr2Nr): -67.89/-10.76, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -70.70/-92.68, Filtered RSRP/RSRQ (Nr2Nr): -70.83/-10.60, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 782, RSRP: -77.78, RSRQ: -16.80, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -77.78/-94.50, Filtered RSRP/RSRQ (Nr2Nr): -77.78/-16.80, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 268, RSRP: -61.66, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.17/-79.03, Filtered RSRP/RSRQ (Nr2Nr): -61.02/-10.31, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.31/-80.73, Filtered RSRP/RSRQ (Nr2Nr): -62.35/-10.34, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -67.91/-88.55, Filtered RSRP/RSRQ (Nr2Nr): -67.91/-10.82, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -70.83/-90.27, Filtered RSRP/RSRQ (Nr2Nr): -70.83/-10.60, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 782, RSRP: -77.74, RSRQ: -16.93, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -77.73/-93.15, Filtered RSRP/RSRQ (Nr2Nr): -77.74/-16.93, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 284, RSRP: -61.80, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.43/-78.40, Filtered RSRP/RSRQ (Nr2Nr): -61.12/-10.31, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.71/-82.77, Filtered RSRP/RSRQ (Nr2Nr): -62.59/-10.34, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.36/-90.15, Filtered RSRP/RSRQ (Nr2Nr): -68.20/-10.87, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.31/-92.76, Filtered RSRP/RSRQ (Nr2Nr): -71.14/-10.66, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 300, RSRP: -62.00, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -60.95/-78.08, Filtered RSRP/RSRQ (Nr2Nr): -61.29/-10.31, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -63.02/-82.05, Filtered RSRP/RSRQ (Nr2Nr): -62.82/-10.34, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.49/-90.23, Filtered RSRP/RSRQ (Nr2Nr): -68.36/-10.77, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.52/-92.52, Filtered RSRP/RSRQ (Nr2Nr): -71.35/-10.61, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 316, RSRP: -61.85, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.09/-77.05, Filtered RSRP/RSRQ (Nr2Nr): -61.17/-10.31, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.53/-81.04, Filtered RSRP/RSRQ (Nr2Nr): -62.63/-10.34, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.31/-88.69, Filtered RSRP/RSRQ (Nr2Nr): -68.33/-10.83, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.02/-90.52, Filtered RSRP/RSRQ (Nr2Nr): -71.13/-10.63, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 332, RSRP: -61.88, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.34/-77.73, Filtered RSRP/RSRQ (Nr2Nr): -61.27/-10.31, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.55/-80.27, Filtered RSRP/RSRQ (Nr2Nr): -62.58/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.21/-87.58, Filtered RSRP/RSRQ (Nr2Nr): -68.25/-10.78, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.42/-90.91, Filtered RSRP/RSRQ (Nr2Nr): -71.32/-10.67, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 348, RSRP: -61.98, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.15/-79.95, Filtered RSRP/RSRQ (Nr2Nr): -61.23/-10.31, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -63.06/-81.52, Filtered RSRP/RSRQ (Nr2Nr): -62.89/-10.34, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.52/-89.55, Filtered RSRP/RSRQ (Nr2Nr): -68.42/-10.76, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.41/-92.16, Filtered RSRP/RSRQ (Nr2Nr): -71.38/-10.61, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 364, RSRP: -61.98, RSRQ: -10.32, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.14/-79.24, Filtered RSRP/RSRQ (Nr2Nr): -61.19/-10.31, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.98/-84.66, Filtered RSRP/RSRQ (Nr2Nr): -62.95/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.45/-92.94, Filtered RSRP/RSRQ (Nr2Nr): -68.44/-10.71, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.55/-96.71, Filtered RSRP/RSRQ (Nr2Nr): -71.48/-10.61, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 380, RSRP: -62.06, RSRQ: -10.32, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.48/-76.95, Filtered RSRP/RSRQ (Nr2Nr): -61.38/-10.31, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.78/-82.97, Filtered RSRP/RSRQ (Nr2Nr): -62.84/-10.35, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.55/-92.22, Filtered RSRP/RSRQ (Nr2Nr): -68.52/-10.77, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.39/-95.23, Filtered RSRP/RSRQ (Nr2Nr): -71.42/-10.62, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 396, RSRP: -62.03, RSRQ: -10.32, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.19/-78.19, Filtered RSRP/RSRQ (Nr2Nr): -61.38/-10.31, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.76/-80.35, Filtered RSRP/RSRQ (Nr2Nr): -62.79/-10.34, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.41/-88.13, Filtered RSRP/RSRQ (Nr2Nr): -68.45/-10.77, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.34/-90.28, Filtered RSRP/RSRQ (Nr2Nr): -71.37/-10.61, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 412, RSRP: -61.84, RSRQ: -10.32, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.05/-78.38, Filtered RSRP/RSRQ (Nr2Nr): -61.19/-10.31, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.48/-82.36, Filtered RSRP/RSRQ (Nr2Nr): -62.59/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.23/-91.37, Filtered RSRP/RSRQ (Nr2Nr): -68.30/-10.80, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.20/-92.94, Filtered RSRP/RSRQ (Nr2Nr): -71.26/-10.62, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 398, RSRP: -78.38, RSRQ: -16.20, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -78.38/-93.83, Filtered RSRP/RSRQ (Nr2Nr): -78.38/-16.20, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 428, RSRP: -61.66, RSRQ: -10.32, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -60.99/-80.45, Filtered RSRP/RSRQ (Nr2Nr): -61.02/-10.31, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.27/-82.13, Filtered RSRP/RSRQ (Nr2Nr): -62.41/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -67.98/-90.21, Filtered RSRP/RSRQ (Nr2Nr): -68.12/-10.78, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -70.84/-92.61, Filtered RSRP/RSRQ (Nr2Nr): -71.03/-10.62, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 398, RSRP: -78.53, RSRQ: -16.45, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -78.66/-93.62, Filtered RSRP/RSRQ (Nr2Nr): -78.53/-16.45, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 444, RSRP: -61.65, RSRQ: -10.32, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.24/-79.45, Filtered RSRP/RSRQ (Nr2Nr): -60.98/-10.31, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.41/-85.16, Filtered RSRP/RSRQ (Nr2Nr): -62.41/-10.31, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -67.96/-93.82, Filtered RSRP/RSRQ (Nr2Nr): -68.02/-10.80, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -70.95/-96.21, Filtered RSRP/RSRQ (Nr2Nr): -70.98/-10.63, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 398, RSRP: -78.32, RSRQ: -16.04, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -78.20/-95.31, Filtered RSRP/RSRQ (Nr2Nr): -78.32/-16.04, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 460, RSRP: -61.88, RSRQ: -10.32, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.38/-78.05, Filtered RSRP/RSRQ (Nr2Nr): -61.20/-10.31, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.82/-83.95, Filtered RSRP/RSRQ (Nr2Nr): -62.63/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.34/-91.36, Filtered RSRP/RSRQ (Nr2Nr): -68.20/-10.82, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.30/-93.76, Filtered RSRP/RSRQ (Nr2Nr): -71.16/-10.62, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 398, RSRP: -78.12, RSRQ: -16.05, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -77.96/-94.21, Filtered RSRP/RSRQ (Nr2Nr): -78.12/-16.05, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 476, RSRP: -61.88, RSRQ: -10.32, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.39/-78.44, Filtered RSRP/RSRQ (Nr2Nr): -61.31/-10.31, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.45/-80.70, Filtered RSRP/RSRQ (Nr2Nr): -62.52/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.16/-87.96, Filtered RSRP/RSRQ (Nr2Nr): -68.17/-10.79, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.49/-89.92, Filtered RSRP/RSRQ (Nr2Nr): -71.38/-10.66, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 398, RSRP: -78.20, RSRQ: -16.64, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -78.25/-92.70, Filtered RSRP/RSRQ (Nr2Nr): -78.20/-16.64, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 492, RSRP: -62.03, RSRQ: -10.32, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.14/-81.35, Filtered RSRP/RSRQ (Nr2Nr): -61.34/-10.31, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -63.05/-84.33, Filtered RSRP/RSRQ (Nr2Nr): -62.86/-10.34, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.61/-91.68, Filtered RSRP/RSRQ (Nr2Nr): -68.45/-10.71, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.38/-93.60, Filtered RSRP/RSRQ (Nr2Nr): -71.38/-10.62, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 398, RSRP: -78.72, RSRQ: -16.22, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -79.00/-94.45, Filtered RSRP/RSRQ (Nr2Nr): -78.72/-16.22, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 508, RSRP: -62.09, RSRQ: -10.32, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.66/-78.31, Filtered RSRP/RSRQ (Nr2Nr): -61.55/-10.31, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.62/-87.12, Filtered RSRP/RSRQ (Nr2Nr): -62.71/-10.33, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.23/-93.95, Filtered RSRP/RSRQ (Nr2Nr): -68.31/-10.76, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.05/-97.18, Filtered RSRP/RSRQ (Nr2Nr): -71.17/-10.59, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 398, RSRP: -78.17, RSRQ: -15.48, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -77.88/-95.12, Filtered RSRP/RSRQ (Nr2Nr): -78.17/-15.48, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 524, RSRP: -62.15, RSRQ: -10.32, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.64/-76.98, Filtered RSRP/RSRQ (Nr2Nr): -61.52/-10.31, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -63.00/-82.47, Filtered RSRP/RSRQ (Nr2Nr): -62.90/-10.31, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.59/-91.57, Filtered RSRP/RSRQ (Nr2Nr): -68.49/-10.77, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.37/-93.62, Filtered RSRP/RSRQ (Nr2Nr): -71.30/-10.55, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 398, RSRP: -77.82, RSRQ: -15.41, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -77.62/-93.36, Filtered RSRP/RSRQ (Nr2Nr): -77.82/-15.41, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 540, RSRP: -62.23, RSRQ: -10.32, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.61/-75.91, Filtered RSRP/RSRQ (Nr2Nr): -61.59/-10.31, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -63.03/-80.44, Filtered RSRP/RSRQ (Nr2Nr): -62.98/-10.34, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.52/-88.27, Filtered RSRP/RSRQ (Nr2Nr): -68.52/-10.77, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.55/-91.16, Filtered RSRP/RSRQ (Nr2Nr): -71.46/-10.56, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 398, RSRP: -77.80, RSRQ: -16.70, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -77.79/-93.48, Filtered RSRP/RSRQ (Nr2Nr): -77.80/-16.70, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 556, RSRP: -62.28, RSRQ: -10.32, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -62.11/-76.93, Filtered RSRP/RSRQ (Nr2Nr): -61.69/-10.31, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.93/-79.60, Filtered RSRP/RSRQ (Nr2Nr): -62.95/-10.34, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.54/-87.59, Filtered RSRP/RSRQ (Nr2Nr): -68.53/-10.80, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.45/-89.88, Filtered RSRP/RSRQ (Nr2Nr): -71.45/-10.59, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 398, RSRP: -77.86, RSRQ: -17.30, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -77.89/-92.92, Filtered RSRP/RSRQ (Nr2Nr): -77.86/-17.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 572, RSRP: -62.65, RSRQ: -10.32, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -62.40/-77.22, Filtered RSRP/RSRQ (Nr2Nr): -62.05/-10.31, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -63.57/-80.70, Filtered RSRP/RSRQ (Nr2Nr): -63.35/-10.34, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -69.23/-88.29, Filtered RSRP/RSRQ (Nr2Nr): -68.98/-10.70, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.97/-90.76, Filtered RSRP/RSRQ (Nr2Nr): -71.79/-10.59, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 398, RSRP: -78.93, RSRQ: -17.12, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -79.52/-92.97, Filtered RSRP/RSRQ (Nr2Nr): -78.93/-17.12, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 588, RSRP: -62.98, RSRQ: -10.32, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -62.25/-76.89, Filtered RSRP/RSRQ (Nr2Nr): -62.34/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -63.96/-81.34, Filtered RSRP/RSRQ (Nr2Nr): -63.74/-10.36, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -69.29/-89.20, Filtered RSRP/RSRQ (Nr2Nr): -69.18/-10.70, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -72.30/-90.72, Filtered RSRP/RSRQ (Nr2Nr): -72.12/-10.57, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 398, RSRP: -78.81, RSRQ: -16.47, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -78.75/-92.56, Filtered RSRP/RSRQ (Nr2Nr): -78.81/-16.47, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 604, RSRP: -62.99, RSRQ: -10.34, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.84/-76.23, Filtered RSRP/RSRQ (Nr2Nr): -62.35/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -63.75/-81.27, Filtered RSRP/RSRQ (Nr2Nr): -63.75/-10.39, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -69.16/-88.88, Filtered RSRP/RSRQ (Nr2Nr): -69.16/-10.74, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.84/-91.62, Filtered RSRP/RSRQ (Nr2Nr): -71.94/-10.52, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 620, RSRP: -62.45, RSRQ: -10.34, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.57/-77.84, Filtered RSRP/RSRQ (Nr2Nr): -61.87/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.73/-81.20, Filtered RSRP/RSRQ (Nr2Nr): -63.09/-10.37, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.30/-89.69, Filtered RSRP/RSRQ (Nr2Nr): -68.61/-10.77, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.48/-91.10, Filtered RSRP/RSRQ (Nr2Nr): -71.64/-10.53, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 636, RSRP: -62.32, RSRQ: -10.34, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.58/-79.20, Filtered RSRP/RSRQ (Nr2Nr): -61.66/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -63.08/-82.23, Filtered RSRP/RSRQ (Nr2Nr): -63.09/-10.34, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.63/-90.42, Filtered RSRP/RSRQ (Nr2Nr): -68.62/-10.74, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.67/-92.94, Filtered RSRP/RSRQ (Nr2Nr): -71.66/-10.57, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 652, RSRP: -62.27, RSRQ: -10.34, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.51/-77.71, Filtered RSRP/RSRQ (Nr2Nr): -61.61/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -63.03/-84.37, Filtered RSRP/RSRQ (Nr2Nr): -63.05/-10.37, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.35/-94.29, Filtered RSRP/RSRQ (Nr2Nr): -68.45/-10.73, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.63/-95.66, Filtered RSRP/RSRQ (Nr2Nr): -71.64/-10.61, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 668, RSRP: -62.25, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.48/-75.32, Filtered RSRP/RSRQ (Nr2Nr): -61.57/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -63.07/-81.31, Filtered RSRP/RSRQ (Nr2Nr): -63.06/-10.34, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.77/-88.98, Filtered RSRP/RSRQ (Nr2Nr): -68.66/-10.73, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.49/-91.34, Filtered RSRP/RSRQ (Nr2Nr): -71.55/-10.55, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 684, RSRP: -62.11, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.16/-75.45, Filtered RSRP/RSRQ (Nr2Nr): -61.44/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.80/-78.69, Filtered RSRP/RSRQ (Nr2Nr): -62.91/-10.34, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.36/-86.83, Filtered RSRP/RSRQ (Nr2Nr): -68.49/-10.75, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.35/-89.31, Filtered RSRP/RSRQ (Nr2Nr): -71.44/-10.55, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 700, RSRP: -61.93, RSRQ: -10.31, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.41/-76.75, Filtered RSRP/RSRQ (Nr2Nr): -61.30/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.51/-79.60, Filtered RSRP/RSRQ (Nr2Nr): -62.65/-10.31, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.11/-88.29, Filtered RSRP/RSRQ (Nr2Nr): -68.24/-10.77, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.09/-90.08, Filtered RSRP/RSRQ (Nr2Nr): -71.22/-10.60, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 716, RSRP: -61.95, RSRQ: -10.31, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.24/-75.69, Filtered RSRP/RSRQ (Nr2Nr): -61.30/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.77/-80.16, Filtered RSRP/RSRQ (Nr2Nr): -62.73/-10.31, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.40/-89.15, Filtered RSRP/RSRQ (Nr2Nr): -68.34/-10.79, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.26/-90.46, Filtered RSRP/RSRQ (Nr2Nr): -71.24/-10.62, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 732, RSRP: -61.98, RSRQ: -10.31, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.37/-77.20, Filtered RSRP/RSRQ (Nr2Nr): -61.34/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.77/-79.02, Filtered RSRP/RSRQ (Nr2Nr): -62.76/-10.34, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -67.94/-86.68, Filtered RSRP/RSRQ (Nr2Nr): -68.08/-10.73, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.07/-89.16, Filtered RSRP/RSRQ (Nr2Nr): -71.13/-10.59, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 748, RSRP: -61.90, RSRQ: -10.31, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.27/-75.67, Filtered RSRP/RSRQ (Nr2Nr): -61.21/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.67/-81.60, Filtered RSRP/RSRQ (Nr2Nr): -62.70/-10.33, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.10/-90.11, Filtered RSRP/RSRQ (Nr2Nr): -68.09/-10.73, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -70.94/-92.62, Filtered RSRP/RSRQ (Nr2Nr): -71.01/-10.57, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 764, RSRP: -61.95, RSRQ: -10.31, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -60.77/-75.11, Filtered RSRP/RSRQ (Nr2Nr): -61.23/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.84/-79.12, Filtered RSRP/RSRQ (Nr2Nr): -62.79/-10.36, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.27/-86.89, Filtered RSRP/RSRQ (Nr2Nr): -68.21/-10.72, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.35/-88.72, Filtered RSRP/RSRQ (Nr2Nr): -71.23/-10.57, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 780, RSRP: -61.73, RSRQ: -10.31, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -60.96/-75.23, Filtered RSRP/RSRQ (Nr2Nr): -61.05/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.36/-78.78, Filtered RSRP/RSRQ (Nr2Nr): -62.52/-10.33, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -67.92/-86.17, Filtered RSRP/RSRQ (Nr2Nr): -68.02/-10.75, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -70.95/-88.45, Filtered RSRP/RSRQ (Nr2Nr): -71.05/-10.55, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 796, RSRP: -61.74, RSRQ: -10.31, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.06/-73.85, Filtered RSRP/RSRQ (Nr2Nr): -61.02/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.61/-78.30, Filtered RSRP/RSRQ (Nr2Nr): -62.58/-10.33, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -67.83/-85.89, Filtered RSRP/RSRQ (Nr2Nr): -67.90/-10.76, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -70.98/-88.34, Filtered RSRP/RSRQ (Nr2Nr): -71.01/-10.60, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 812, RSRP: -61.80, RSRQ: -10.31, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.49/-75.20, Filtered RSRP/RSRQ (Nr2Nr): -61.18/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.48/-77.22, Filtered RSRP/RSRQ (Nr2Nr): -62.52/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.03/-84.51, Filtered RSRP/RSRQ (Nr2Nr): -67.98/-10.76, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.15/-86.99, Filtered RSRP/RSRQ (Nr2Nr): -71.10/-10.59, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 828, RSRP: -62.02, RSRQ: -10.31, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.12/-75.18, Filtered RSRP/RSRQ (Nr2Nr): -61.35/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.95/-78.41, Filtered RSRP/RSRQ (Nr2Nr): -62.79/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.54/-86.25, Filtered RSRP/RSRQ (Nr2Nr): -68.34/-10.71, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.73/-88.53, Filtered RSRP/RSRQ (Nr2Nr): -71.51/-10.59, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 844, RSRP: -61.94, RSRQ: -10.31, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.44/-76.64, Filtered RSRP/RSRQ (Nr2Nr): -61.38/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.41/-79.04, Filtered RSRP/RSRQ (Nr2Nr): -62.55/-10.31, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.09/-87.23, Filtered RSRP/RSRQ (Nr2Nr): -68.18/-10.71, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.20/-89.20, Filtered RSRP/RSRQ (Nr2Nr): -71.30/-10.59, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 860, RSRP: -61.86, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.05/-77.23, Filtered RSRP/RSRQ (Nr2Nr): -61.21/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.63/-80.69, Filtered RSRP/RSRQ (Nr2Nr): -62.60/-10.34, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.05/-89.10, Filtered RSRP/RSRQ (Nr2Nr): -68.10/-10.72, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.24/-90.77, Filtered RSRP/RSRQ (Nr2Nr): -71.27/-10.60, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 876, RSRP: -61.81, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.39/-78.73, Filtered RSRP/RSRQ (Nr2Nr): -61.17/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.52/-81.38, Filtered RSRP/RSRQ (Nr2Nr): -62.55/-10.34, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -67.77/-89.88, Filtered RSRP/RSRQ (Nr2Nr): -67.92/-10.70, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -70.95/-91.95, Filtered RSRP/RSRQ (Nr2Nr): -71.09/-10.62, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 892, RSRP: -61.77, RSRQ: -10.31, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -60.74/-77.11, Filtered RSRP/RSRQ (Nr2Nr): -61.10/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.54/-83.30, Filtered RSRP/RSRQ (Nr2Nr): -62.55/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.23/-92.48, Filtered RSRP/RSRQ (Nr2Nr): -68.12/-10.78, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.13/-93.09, Filtered RSRP/RSRQ (Nr2Nr): -71.12/-10.63, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 908, RSRP: -61.75, RSRQ: -10.31, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.17/-78.08, Filtered RSRP/RSRQ (Nr2Nr): -61.10/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.48/-81.80, Filtered RSRP/RSRQ (Nr2Nr): -62.50/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -67.95/-90.96, Filtered RSRP/RSRQ (Nr2Nr): -68.02/-10.80, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -70.94/-92.20, Filtered RSRP/RSRQ (Nr2Nr): -71.00/-10.61, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 924, RSRP: -61.82, RSRQ: -10.31, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.05/-76.41, Filtered RSRP/RSRQ (Nr2Nr): -61.20/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.55/-81.49, Filtered RSRP/RSRQ (Nr2Nr): -62.53/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.15/-89.95, Filtered RSRP/RSRQ (Nr2Nr): -68.10/-10.74, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.08/-91.63, Filtered RSRP/RSRQ (Nr2Nr): -71.05/-10.58, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 910, RSRP: -78.89, RSRQ: -15.91, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -78.89/-92.80, Filtered RSRP/RSRQ (Nr2Nr): -78.89/-15.91, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 940, RSRP: -61.80, RSRQ: -10.31, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -60.87/-76.23, Filtered RSRP/RSRQ (Nr2Nr): -61.14/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.62/-79.32, Filtered RSRP/RSRQ (Nr2Nr): -62.59/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.27/-87.55, Filtered RSRP/RSRQ (Nr2Nr): -68.20/-10.79, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.02/-88.96, Filtered RSRP/RSRQ (Nr2Nr): -71.03/-10.58, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 910, RSRP: -78.70, RSRQ: -16.25, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -78.54/-91.53, Filtered RSRP/RSRQ (Nr2Nr): -78.70/-16.25, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 956, RSRP: -61.76, RSRQ: -10.31, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -60.93/-75.70, Filtered RSRP/RSRQ (Nr2Nr): -61.14/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.39/-79.39, Filtered RSRP/RSRQ (Nr2Nr): -62.46/-10.33, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -67.92/-86.95, Filtered RSRP/RSRQ (Nr2Nr): -68.02/-10.79, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -70.92/-90.04, Filtered RSRP/RSRQ (Nr2Nr): -70.96/-10.57, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 910, RSRP: -78.43, RSRQ: -19.41, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -78.29/-94.86, Filtered RSRP/RSRQ (Nr2Nr): -78.43/-19.41, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 972, RSRP: -61.70, RSRQ: -10.31, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.45/-76.48, Filtered RSRP/RSRQ (Nr2Nr): -61.07/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.40/-78.23, Filtered RSRP/RSRQ (Nr2Nr): -62.42/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -67.73/-86.41, Filtered RSRP/RSRQ (Nr2Nr): -67.83/-10.77, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -70.75/-88.45, Filtered RSRP/RSRQ (Nr2Nr): -70.83/-10.55, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 910, RSRP: -78.17, RSRQ: -18.02, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -78.03/-91.31, Filtered RSRP/RSRQ (Nr2Nr): -78.17/-18.02, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 988, RSRP: -61.75, RSRQ: -10.31, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.11/-77.06, Filtered RSRP/RSRQ (Nr2Nr): -61.09/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.59/-79.40, Filtered RSRP/RSRQ (Nr2Nr): -62.53/-10.31, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.32/-87.48, Filtered RSRP/RSRQ (Nr2Nr): -68.15/-10.80, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.17/-89.73, Filtered RSRP/RSRQ (Nr2Nr): -71.05/-10.59, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 910, RSRP: -78.27, RSRQ: -17.71, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -78.31/-92.89, Filtered RSRP/RSRQ (Nr2Nr): -78.27/-17.71, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 1004, RSRP: -61.71, RSRQ: -10.31, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -60.71/-76.20, Filtered RSRP/RSRQ (Nr2Nr): -61.06/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.47/-80.83, Filtered RSRP/RSRQ (Nr2Nr): -62.49/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.02/-88.95, Filtered RSRP/RSRQ (Nr2Nr): -68.07/-10.74, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.05/-91.20, Filtered RSRP/RSRQ (Nr2Nr): -71.05/-10.60, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 910, RSRP: -78.08, RSRQ: -17.73, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -77.98/-94.30, Filtered RSRP/RSRQ (Nr2Nr): -78.08/-17.73, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 1020, RSRP: -61.64, RSRQ: -10.31, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.02/-76.10, Filtered RSRP/RSRQ (Nr2Nr): -61.05/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.20/-78.89, Filtered RSRP/RSRQ (Nr2Nr): -62.30/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -67.63/-86.24, Filtered RSRP/RSRQ (Nr2Nr): -67.79/-10.71, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -70.64/-89.06, Filtered RSRP/RSRQ (Nr2Nr): -70.78/-10.61, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 910, RSRP: -77.72, RSRQ: -17.62, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -77.52/-92.08, Filtered RSRP/RSRQ (Nr2Nr): -77.72/-17.62, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 12, RSRP: -61.73, RSRQ: -10.32, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.34/-75.70, Filtered RSRP/RSRQ (Nr2Nr): -61.09/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.55/-79.33, Filtered RSRP/RSRQ (Nr2Nr): -62.46/-10.34, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -67.84/-86.94, Filtered RSRP/RSRQ (Nr2Nr): -67.82/-10.72, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -70.89/-88.98, Filtered RSRP/RSRQ (Nr2Nr): -70.85/-10.60, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 910, RSRP: -77.98, RSRQ: -18.03, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -78.12/-93.37, Filtered RSRP/RSRQ (Nr2Nr): -77.98/-18.03, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 28, RSRP: -61.82, RSRQ: -10.32, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.07/-75.76, Filtered RSRP/RSRQ (Nr2Nr): -61.15/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.70/-79.24, Filtered RSRP/RSRQ (Nr2Nr): -62.62/-10.34, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.36/-87.14, Filtered RSRP/RSRQ (Nr2Nr): -68.17/-10.74, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.09/-88.84, Filtered RSRP/RSRQ (Nr2Nr): -71.00/-10.60, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 910, RSRP: -78.05, RSRQ: -17.26, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -78.09/-91.81, Filtered RSRP/RSRQ (Nr2Nr): -78.05/-17.26, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 44, RSRP: -61.81, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.27/-76.16, Filtered RSRP/RSRQ (Nr2Nr): -61.19/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.48/-78.45, Filtered RSRP/RSRQ (Nr2Nr): -62.53/-10.36, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -67.93/-85.76, Filtered RSRP/RSRQ (Nr2Nr): -68.02/-10.72, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.20/-88.69, Filtered RSRP/RSRQ (Nr2Nr): -71.12/-10.59, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 910, RSRP: -78.22, RSRQ: -17.70, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -78.31/-91.98, Filtered RSRP/RSRQ (Nr2Nr): -78.22/-17.70, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 60, RSRP: -61.80, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.16/-76.41, Filtered RSRP/RSRQ (Nr2Nr): -61.17/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.54/-79.45, Filtered RSRP/RSRQ (Nr2Nr): -62.54/-10.35, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.36/-87.01, Filtered RSRP/RSRQ (Nr2Nr): -68.23/-10.79, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.34/-89.55, Filtered RSRP/RSRQ (Nr2Nr): -71.26/-10.66, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 910, RSRP: -78.11, RSRQ: -17.41, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -78.05/-92.14, Filtered RSRP/RSRQ (Nr2Nr): -78.11/-17.41, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 76, RSRP: -61.85, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -60.98/-75.89, Filtered RSRP/RSRQ (Nr2Nr): -61.10/-10.31, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.86/-79.51, Filtered RSRP/RSRQ (Nr2Nr): -62.74/-10.34, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.22/-86.60, Filtered RSRP/RSRQ (Nr2Nr): -68.23/-10.83, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.30/-89.37, Filtered RSRP/RSRQ (Nr2Nr): -71.28/-10.64, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 910, RSRP: -78.14, RSRQ: -17.89, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -78.16/-92.93, Filtered RSRP/RSRQ (Nr2Nr): -78.14/-17.89, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 92, RSRP: -61.78, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.14/-77.94, Filtered RSRP/RSRQ (Nr2Nr): -61.13/-10.31, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.38/-79.34, Filtered RSRP/RSRQ (Nr2Nr): -62.51/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.16/-86.66, Filtered RSRP/RSRQ (Nr2Nr): -68.18/-10.81, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.02/-89.59, Filtered RSRP/RSRQ (Nr2Nr): -71.11/-10.66, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 910, RSRP: -78.36, RSRQ: -18.20, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -78.48/-93.11, Filtered RSRP/RSRQ (Nr2Nr): -78.36/-18.20, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 108, RSRP: -61.66, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -60.82/-77.52, Filtered RSRP/RSRQ (Nr2Nr): -61.02/-10.31, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.33/-80.55, Filtered RSRP/RSRQ (Nr2Nr): -62.39/-10.35, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -67.91/-87.44, Filtered RSRP/RSRQ (Nr2Nr): -68.00/-10.82, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -70.99/-90.70, Filtered RSRP/RSRQ (Nr2Nr): -71.03/-10.68, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 910, RSRP: -77.69, RSRQ: -17.67, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -77.32/-92.80, Filtered RSRP/RSRQ (Nr2Nr): -77.69/-17.67, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 124, RSRP: -61.59, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -60.96/-77.66, Filtered RSRP/RSRQ (Nr2Nr): -60.92/-10.31, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.37/-80.32, Filtered RSRP/RSRQ (Nr2Nr): -62.38/-10.34, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.02/-87.52, Filtered RSRP/RSRQ (Nr2Nr): -68.02/-10.84, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.15/-89.95, Filtered RSRP/RSRQ (Nr2Nr): -71.11/-10.69, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 910, RSRP: -77.53, RSRQ: -18.18, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -77.45/-93.81, Filtered RSRP/RSRQ (Nr2Nr): -77.53/-18.18, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 140, RSRP: -61.58, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.14/-79.55, Filtered RSRP/RSRQ (Nr2Nr): -60.96/-10.31, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.27/-82.02, Filtered RSRP/RSRQ (Nr2Nr): -62.31/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -67.97/-89.68, Filtered RSRP/RSRQ (Nr2Nr): -67.98/-10.84, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.10/-91.80, Filtered RSRP/RSRQ (Nr2Nr): -71.10/-10.68, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 910, RSRP: -77.88, RSRQ: -16.81, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -78.06/-93.03, Filtered RSRP/RSRQ (Nr2Nr): -77.88/-16.81, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 156, RSRP: -61.71, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.52/-78.43, Filtered RSRP/RSRQ (Nr2Nr): -61.11/-10.31, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.45/-82.41, Filtered RSRP/RSRQ (Nr2Nr): -62.40/-10.34, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.11/-89.93, Filtered RSRP/RSRQ (Nr2Nr): -68.06/-10.84, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.23/-92.94, Filtered RSRP/RSRQ (Nr2Nr): -71.19/-10.72, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 910, RSRP: -77.84, RSRQ: -16.41, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -77.82/-93.35, Filtered RSRP/RSRQ (Nr2Nr): -77.84/-16.41, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 172, RSRP: -61.86, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.11/-76.65, Filtered RSRP/RSRQ (Nr2Nr): -61.19/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.78/-81.45, Filtered RSRP/RSRQ (Nr2Nr): -62.65/-10.35, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.55/-88.96, Filtered RSRP/RSRQ (Nr2Nr): -68.38/-10.88, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.34/-91.91, Filtered RSRP/RSRQ (Nr2Nr): -71.28/-10.71, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 910, RSRP: -77.84, RSRQ: -16.09, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -77.84/-92.22, Filtered RSRP/RSRQ (Nr2Nr): -77.84/-16.09, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 188, RSRP: -61.97, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.49/-76.42, Filtered RSRP/RSRQ (Nr2Nr): -61.27/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.87/-80.20, Filtered RSRP/RSRQ (Nr2Nr): -62.79/-10.34, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.16/-87.88, Filtered RSRP/RSRQ (Nr2Nr): -68.24/-10.81, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.29/-90.37, Filtered RSRP/RSRQ (Nr2Nr): -71.29/-10.66, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 910, RSRP: -77.99, RSRQ: -16.63, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -78.08/-92.42, Filtered RSRP/RSRQ (Nr2Nr): -77.99/-16.63, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 204, RSRP: -62.01, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.34/-76.09, Filtered RSRP/RSRQ (Nr2Nr): -61.33/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.78/-80.03, Filtered RSRP/RSRQ (Nr2Nr): -62.78/-10.34, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.35/-87.90, Filtered RSRP/RSRQ (Nr2Nr): -68.31/-10.83, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.34/-90.15, Filtered RSRP/RSRQ (Nr2Nr): -71.33/-10.66, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 910, RSRP: -77.62, RSRQ: -16.98, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -77.41/-92.69, Filtered RSRP/RSRQ (Nr2Nr): -77.62/-16.98, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 220, RSRP: -61.96, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.19/-76.27, Filtered RSRP/RSRQ (Nr2Nr): -61.27/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.76/-79.42, Filtered RSRP/RSRQ (Nr2Nr): -62.77/-10.33, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.06/-87.45, Filtered RSRP/RSRQ (Nr2Nr): -68.15/-10.80, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.27/-89.55, Filtered RSRP/RSRQ (Nr2Nr): -71.29/-10.67, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 236, RSRP: -61.97, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.09/-76.29, Filtered RSRP/RSRQ (Nr2Nr): -61.31/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.73/-79.55, Filtered RSRP/RSRQ (Nr2Nr): -62.74/-10.34, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.12/-87.19, Filtered RSRP/RSRQ (Nr2Nr): -68.13/-10.83, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.23/-89.18, Filtered RSRP/RSRQ (Nr2Nr): -71.25/-10.68, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 252, RSRP: -62.01, RSRQ: -10.32, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.55/-77.02, Filtered RSRP/RSRQ (Nr2Nr): -61.38/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.71/-78.69, Filtered RSRP/RSRQ (Nr2Nr): -62.72/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.56/-86.41, Filtered RSRP/RSRQ (Nr2Nr): -68.41/-10.80, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.55/-88.72, Filtered RSRP/RSRQ (Nr2Nr): -71.45/-10.62, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 268, RSRP: -62.06, RSRQ: -10.32, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.41/-76.48, Filtered RSRP/RSRQ (Nr2Nr): -61.38/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.93/-80.30, Filtered RSRP/RSRQ (Nr2Nr): -62.85/-10.33, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.25/-88.34, Filtered RSRP/RSRQ (Nr2Nr): -68.30/-10.81, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.46/-90.87, Filtered RSRP/RSRQ (Nr2Nr): -71.45/-10.63, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 284, RSRP: -62.04, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.74/-77.30, Filtered RSRP/RSRQ (Nr2Nr): -61.46/-10.33, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.59/-80.30, Filtered RSRP/RSRQ (Nr2Nr): -62.69/-10.33, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.55/-88.77, Filtered RSRP/RSRQ (Nr2Nr): -68.46/-10.86, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.45/-90.36, Filtered RSRP/RSRQ (Nr2Nr): -71.45/-10.70, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 300, RSRP: -62.13, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.22/-77.29, Filtered RSRP/RSRQ (Nr2Nr): -61.47/-10.33, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -63.04/-80.18, Filtered RSRP/RSRQ (Nr2Nr): -62.91/-10.34, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.66/-88.70, Filtered RSRP/RSRQ (Nr2Nr): -68.59/-10.82, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.50/-90.93, Filtered RSRP/RSRQ (Nr2Nr): -71.48/-10.66, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 316, RSRP: -62.08, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.29/-76.84, Filtered RSRP/RSRQ (Nr2Nr): -61.45/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.74/-81.06, Filtered RSRP/RSRQ (Nr2Nr): -62.80/-10.37, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.55/-89.75, Filtered RSRP/RSRQ (Nr2Nr): -68.56/-10.86, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.33/-91.84, Filtered RSRP/RSRQ (Nr2Nr): -71.38/-10.70, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 332, RSRP: -62.04, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.34/-77.07, Filtered RSRP/RSRQ (Nr2Nr): -61.34/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.94/-80.90, Filtered RSRP/RSRQ (Nr2Nr): -62.89/-10.34, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.39/-89.46, Filtered RSRP/RSRQ (Nr2Nr): -68.45/-10.85, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.42/-91.83, Filtered RSRP/RSRQ (Nr2Nr): -71.41/-10.70, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 348, RSRP: -61.97, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.30/-77.61, Filtered RSRP/RSRQ (Nr2Nr): -61.34/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.60/-79.80, Filtered RSRP/RSRQ (Nr2Nr): -62.70/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.16/-87.77, Filtered RSRP/RSRQ (Nr2Nr): -68.26/-10.83, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.24/-90.32, Filtered RSRP/RSRQ (Nr2Nr): -71.30/-10.68, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 364, RSRP: -62.02, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.40/-76.62, Filtered RSRP/RSRQ (Nr2Nr): -61.37/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.85/-80.88, Filtered RSRP/RSRQ (Nr2Nr): -62.80/-10.34, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.37/-88.66, Filtered RSRP/RSRQ (Nr2Nr): -68.33/-10.83, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.27/-91.34, Filtered RSRP/RSRQ (Nr2Nr): -71.28/-10.73, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 380, RSRP: -62.03, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.66/-76.43, Filtered RSRP/RSRQ (Nr2Nr): -61.38/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.80/-79.82, Filtered RSRP/RSRQ (Nr2Nr): -62.80/-10.35, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.45/-87.88, Filtered RSRP/RSRQ (Nr2Nr): -68.41/-10.85, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.38/-90.53, Filtered RSRP/RSRQ (Nr2Nr): -71.34/-10.73, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 396, RSRP: -62.09, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.36/-76.86, Filtered RSRP/RSRQ (Nr2Nr): -61.42/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.94/-78.84, Filtered RSRP/RSRQ (Nr2Nr): -62.89/-10.34, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.44/-86.91, Filtered RSRP/RSRQ (Nr2Nr): -68.43/-10.80, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.38/-89.48, Filtered RSRP/RSRQ (Nr2Nr): -71.37/-10.67, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 412, RSRP: -62.05, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.34/-77.02, Filtered RSRP/RSRQ (Nr2Nr): -61.44/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.62/-80.25, Filtered RSRP/RSRQ (Nr2Nr): -62.72/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.38/-89.05, Filtered RSRP/RSRQ (Nr2Nr): -68.40/-10.81, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.66/-91.38, Filtered RSRP/RSRQ (Nr2Nr): -71.55/-10.69, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 428, RSRP: -62.18, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.52/-77.00, Filtered RSRP/RSRQ (Nr2Nr): -61.54/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -63.00/-80.38, Filtered RSRP/RSRQ (Nr2Nr): -62.90/-10.33, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.34/-89.66, Filtered RSRP/RSRQ (Nr2Nr): -68.36/-10.84, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.26/-91.48, Filtered RSRP/RSRQ (Nr2Nr): -71.36/-10.66, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 444, RSRP: -62.18, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.33/-76.58, Filtered RSRP/RSRQ (Nr2Nr): -61.54/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.88/-80.49, Filtered RSRP/RSRQ (Nr2Nr): -62.89/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.54/-88.85, Filtered RSRP/RSRQ (Nr2Nr): -68.48/-10.80, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.27/-91.23, Filtered RSRP/RSRQ (Nr2Nr): -71.30/-10.63, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 1)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 460, RSRP: -62.17, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.45/-76.30, Filtered RSRP/RSRQ (Nr2Nr): -61.54/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.89/-81.41, Filtered RSRP/RSRQ (Nr2Nr): -62.89/-10.33, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.33/-90.45, Filtered RSRP/RSRQ (Nr2Nr): -68.38/-10.82, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.39/-92.64, Filtered RSRP/RSRQ (Nr2Nr): -71.36/-10.61, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 476, RSRP: -62.20, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.43/-76.51, Filtered RSRP/RSRQ (Nr2Nr): -61.55/-10.32, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.96/-80.20, Filtered RSRP/RSRQ (Nr2Nr): -62.94/-10.34, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.50/-89.16, Filtered RSRP/RSRQ (Nr2Nr): -68.46/-10.81, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.39/-91.17, Filtered RSRP/RSRQ (Nr2Nr): -71.38/-10.59, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 462, RSRP: -78.29, RSRQ: -16.52, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -78.29/-92.65, Filtered RSRP/RSRQ (Nr2Nr): -78.29/-16.52, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 492, RSRP: -62.09, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.69/-76.55, Filtered RSRP/RSRQ (Nr2Nr): -61.47/-10.31, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.78/-80.62, Filtered RSRP/RSRQ (Nr2Nr): -62.84/-10.34, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.23/-89.73, Filtered RSRP/RSRQ (Nr2Nr): -68.31/-10.82, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.17/-91.57, Filtered RSRP/RSRQ (Nr2Nr): -71.25/-10.62, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 462, RSRP: -78.14, RSRQ: -18.40, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -78.06/-93.67, Filtered RSRP/RSRQ (Nr2Nr): -78.14/-18.40, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 508, RSRP: -62.15, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.24/-76.94, Filtered RSRP/RSRQ (Nr2Nr): -61.47/-10.31, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -63.01/-80.20, Filtered RSRP/RSRQ (Nr2Nr): -62.95/-10.34, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.77/-88.48, Filtered RSRP/RSRQ (Nr2Nr): -68.61/-10.81, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.57/-90.69, Filtered RSRP/RSRQ (Nr2Nr): -71.45/-10.66, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 462, RSRP: -78.25, RSRQ: -17.31, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -78.31/-92.48, Filtered RSRP/RSRQ (Nr2Nr): -78.25/-17.31, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 524, RSRP: -61.95, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.25/-77.80, Filtered RSRP/RSRQ (Nr2Nr): -61.33/-10.31, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.52/-81.30, Filtered RSRP/RSRQ (Nr2Nr): -62.67/-10.35, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.38/-89.55, Filtered RSRP/RSRQ (Nr2Nr): -68.46/-10.85, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.09/-91.34, Filtered RSRP/RSRQ (Nr2Nr): -71.22/-10.64, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 462, RSRP: -77.77, RSRQ: -16.91, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -77.50/-93.24, Filtered RSRP/RSRQ (Nr2Nr): -77.77/-16.91, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 540, RSRP: -61.74, RSRQ: -10.33, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.16/-77.53, Filtered RSRP/RSRQ (Nr2Nr): -61.12/-10.31, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.30/-81.66, Filtered RSRP/RSRQ (Nr2Nr): -62.43/-10.33, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.05/-90.65, Filtered RSRP/RSRQ (Nr2Nr): -68.20/-10.83, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.02/-92.24, Filtered RSRP/RSRQ (Nr2Nr): -71.09/-10.67, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 462, RSRP: -78.00, RSRQ: -15.98, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -78.12/-92.59, Filtered RSRP/RSRQ (Nr2Nr): -78.00/-15.98, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 556, RSRP: -61.73, RSRQ: -10.32, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.20/-77.80, Filtered RSRP/RSRQ (Nr2Nr): -61.19/-10.31, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.29/-81.16, Filtered RSRP/RSRQ (Nr2Nr): -62.34/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -67.88/-90.05, Filtered RSRP/RSRQ (Nr2Nr): -67.99/-10.72, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.14/-91.91, Filtered RSRP/RSRQ (Nr2Nr): -71.12/-10.66, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 462, RSRP: -78.31, RSRQ: -16.29, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -78.48/-93.72, Filtered RSRP/RSRQ (Nr2Nr): -78.31/-16.29, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 572, RSRP: -61.87, RSRQ: -10.31, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.53/-78.82, Filtered RSRP/RSRQ (Nr2Nr): -61.30/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.57/-82.40, Filtered RSRP/RSRQ (Nr2Nr): -62.48/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.02/-90.72, Filtered RSRP/RSRQ (Nr2Nr): -68.02/-10.76, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.20/-92.34, Filtered RSRP/RSRQ (Nr2Nr): -71.17/-10.64, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 462, RSRP: -77.85, RSRQ: -15.97, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -77.59/-93.43, Filtered RSRP/RSRQ (Nr2Nr): -77.85/-15.97, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
+Radio 0: Layer 0: NR-ARFCN: 466850, SCell PCI:  395/SSB: 0, RSRP: 0.00/0.00, RX beam: NA/NA, Num Cells: 0 (S: 2)
+Radio 0: └── Cell 0: PCI:  395, PBCH SFN: 588, RSRP: -61.95, RSRQ: -10.31, Num Beams: 4
+Radio 0:     └── Beam 0: SSB[1] Beam ID: 0/0, RSRP: -61.16/-78.70, Filtered RSRP/RSRQ (Nr2Nr): -61.32/-10.30, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 1: SSB[0] Beam ID: 0/0, RSRP: -62.80/-83.41, Filtered RSRP/RSRQ (Nr2Nr): -62.69/-10.34, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 2: SSB[6] Beam ID: 0/0, RSRP: -68.34/-91.71, Filtered RSRP/RSRQ (Nr2Nr): -68.22/-10.79, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0:     └── Beam 3: SSB[5] Beam ID: 0/0, RSRP: -71.38/-93.55, Filtered RSRP/RSRQ (Nr2Nr): -71.30/-10.62, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: └── Cell 1: PCI:  393, PBCH SFN: 462, RSRP: -77.58, RSRQ: -18.50, Num Beams: 1
+Radio 0:     └── Beam 0: SSB[6] Beam ID: 0/0, RSRP: -77.42/-94.87, Filtered RSRP/RSRQ (Nr2Nr): -77.58/-18.50, Filtered RSRP/RSRQ (L2Nr): 0.00/0.00
+Radio 0: NR ML1 Meas Packet: Layers: 1, ssb_periocity: 20
