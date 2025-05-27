@@ -4,3 +4,4 @@ uvicorn[standard]
 psutil
 python-multipart
 websockets
+python-dateutil

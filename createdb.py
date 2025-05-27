@@ -11,7 +11,7 @@ def create_tables():
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             name TEXT ,
             status INTEGER ,
-            timestamp DATETIvME 
+            timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
         );
     """)
 
