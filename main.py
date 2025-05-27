@@ -103,39 +103,6 @@ async def start_capture(
         "campaign_name": campaign_name
     }
 
-# @app.get("/stop-capture/{campaign_id}")
-# async def stop_capture(campaign_id: int):
-#     global capture_thread, stop_event, global_cap
-#     update_campaign_status(campaign_id, 0)
-    
-#     if capture_thread is None or not capture_thread.is_alive():
-#         logger.warning(f"Percobaan menghentikan capture yang tidak berjalan. Campaign ID: {campaign_id}")
-#         raise HTTPException(status_code=400, detail="Live capture is not running")
-
-#     try:
-#         # Set stop_event untuk memberi sinyal ke thread
-#         stop_event.set()
-        
-#         # Jika global_cap masih ada, panggil close() untuk memaksa keluar dari blocking read
-#         if global_cap is not None:
-#             global_cap.close()
-        
-#         capture_thread.join(timeout=2)
-        
-#         if capture_thread.is_alive():
-#             logger.error(f"Capture thread tidak berhasil dihentikan dengan benar. Campaign ID: {campaign_id}")
-#             raise HTTPException(status_code=500, detail="Live capture thread did not terminate properly.")
-        
-#         capture_thread = None
-#         stop_event.clear()
-
-#         logger.info(f"Live capture dihentikan dengan sukses. Campaign ID={campaign_id}")
-#         return {"message": "Live capture stopped successfully", "campaign_id": campaign_id}
-    
-#     except Exception as e:
-#         logger.exception(f"Error saat menghentikan capture untuk Campaign ID {campaign_id}: {e}")
-#         raise HTTPException(status_code=500, detail=f"Error stopping capture: {str(e)}")
-
 @app.get("/stop-capture/{campaign_id}")
 async def stop_capture(campaign_id: int):
     global capture_thread, stop_event, global_cap
@@ -166,6 +133,196 @@ async def stop_capture(campaign_id: int):
     update_campaign_status(campaign_id, 0)
     return {"status": "Capture dihentikan", "campaign_id": campaign_id}
 
+@app.post("/add-device/")
+async def add_device(
+    serial_number: str = Form(...),
+    ip: str = Form(...),
+    is_connected: int = Form(0)
+):
+    """Menambahkan satu device via form data"""
+    connection = None
+    cursor = None
+    try:
+        connection = connect_to_database()
+        cursor = connection.cursor()
+        
+        cursor.execute(
+            "INSERT INTO device (serial_number, ip, is_connected) VALUES (?, ?, ?)",
+            (serial_number, ip, is_connected)
+        )
+        
+        connection.commit()
+        device_id = cursor.lastrowid
+        
+        logger.info(f"Device ditambahkan - ID: {device_id}, SN: {serial_number}")
+        
+        return {
+            "message": "Device added successfully",
+            "device_id": device_id,
+            "serial_number": serial_number
+        }
+        
+    except Exception as e:
+        logger.error(f"Error saat menambahkan device: {e}")
+        raise HTTPException(
+            status_code=500,
+            detail="Gagal menambahkan device"
+        )
+    finally:
+        if cursor:
+            cursor.close()
+        if connection:
+            connection.close()
+
+@app.get("/get-device}")
+async def get_device():
+    """Ambil satu device via ID"""
+    connection = None
+    cursor = None
+    try:
+        connection = connect_to_database()
+        cursor = connection.cursor()
+
+        cursor.execute(
+            "SELECT id, serial_number, ip, is_connected FROM device"
+        )
+        row = cursor.fetchone()
+
+        if not row:
+            # ID tidak ditemukan
+            raise HTTPException(
+                status_code=404,
+                detail=f"Device dengan  tidak ada"
+            )
+
+        # mapping hasil query ke dict
+        device = {
+            "id": row[0],
+            "serial_number": row[1],
+            "ip": row[2],
+            "is_connected": row[3],
+        }
+
+        return {"device": device}
+
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Error saat mengambil device: {e}")
+        raise HTTPException(
+            status_code=500,
+            detail="Gagal mengambil data device"
+        )
+    finally:
+        if cursor:
+            cursor.close()
+        if connection:
+            connection.close()
+
+
+@app.put("/update-device/{device_id}")
+async def update_device(
+    device_id: int,
+    ip:str = Form(None),
+    is_connected: int = Form(None),
+):
+
+    connection = None
+    cursor = None
+    try:
+        connection = connect_to_database()
+        cursor = connection.cursor()
+
+        updates = []
+        params = []
+        if ip is not None:
+            updates.append("ip = ?")
+            params.append(ip)
+        if is_connected is not None:
+            updates.append("is_connected = ?")
+            params.append(is_connected)
+
+        if not updates:
+            raise HTTPException(
+                status_code=400,
+                detail="Tidak ada field yang di-update"
+            )
+
+        # tambahkan serial_number ke params untuk WHERE
+        params.append(device_id)
+        sql = f"""
+            UPDATE device
+            SET {', '.join(updates)}
+            WHERE id = ?
+        """
+        cursor.execute(sql, params)
+        connection.commit()
+
+        if cursor.rowcount == 0:
+            # kalau tidak ada baris yang berubah, serial_number tidak ditemukan
+            raise HTTPException(
+                status_code=404,
+                detail="Device dengan serial_number tersebut tidak ada"
+            )
+
+        logger.info(f"Device di-update - ID: {device_id}, fields: {updates}")
+        return {"message": "Device updated successfully"}
+
+    except HTTPException:
+        # lempar ulang HTTPException yang sudah kita bangun
+        raise
+    except Exception as e:
+        logger.error(f"Error saat update device: {e}")
+        raise HTTPException(
+            status_code=500,
+            detail="Gagal meng-update device"
+        )
+    finally:
+        if cursor:
+            cursor.close()
+        if connection:
+            connection.close()
+
+@app.delete("/delete-device/{device_id}")
+async def delete_device(
+    device_id: int
+):
+    """Hapus satu device via ID"""
+    connection = None
+    cursor = None
+    try:
+        connection = connect_to_database()
+        cursor = connection.cursor()
+
+        cursor.execute(
+            "DELETE FROM device WHERE id = ?",
+            (device_id,)
+        )
+        connection.commit()
+
+        if cursor.rowcount == 0:
+            # tidak ada baris yang terhapus → ID tidak ditemukan
+            raise HTTPException(
+                status_code=404,
+                detail=f"Device dengan ID {device_id} tidak ada"
+            )
+
+        logger.info(f"Device dihapus - ID: {device_id}")
+        return {"message": f"Device ID {device_id} deleted successfully"}
+
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Error saat menghapus device: {e}")
+        raise HTTPException(
+            status_code=500,
+            detail="Gagal menghapus device"
+        )
+    finally:
+        if cursor:
+            cursor.close()
+        if connection:
+            connection.close()
 
 @app.websocket("/ws")
 async def websocket_endpoint(websocket: WebSocket):
