@@ -198,9 +198,9 @@ def main():
         print("Verifikasi perangkat gagal. Proses dihentikan.\n")
         return
 
-    if not check_pancashiki_installed():
-        print("Please install pancashiki\n")
-        return
+    # if not check_pancashiki_installed():
+    #     print("Please install pancashiki\n")
+    #     return
 
     usb_serial = get_qualcomm_device_serial()
     if not usb_serial:
